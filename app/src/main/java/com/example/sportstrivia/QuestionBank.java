@@ -3,6 +3,7 @@ package com.example.sportstrivia;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
 public class QuestionBank {
 
@@ -14,10 +15,15 @@ public class QuestionBank {
         loadFootballQuestions();
     }
 
-    public List<Question> getShuffledQuestions() {
-        List<Question> shuffled = new ArrayList<>(questions);
-        Collections.shuffle(shuffled);
-        return shuffled;
+    public List<Question> getShuffledQuestions(Set<String> flaggedQuestions) {
+        List<Question> filtered = new ArrayList<>();
+        for (Question q : questions) {
+            if (!flaggedQuestions.contains(q.getQuestionText())) {
+                filtered.add(q);
+            }
+        }
+        Collections.shuffle(filtered);
+        return filtered;
     }
 
     private void loadBaseballQuestions() {

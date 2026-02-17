@@ -1,14 +1,20 @@
 package com.example.sportstrivia;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class MainActivity extends Activity implements View.OnClickListener {
+
+    private static final String PREFS_NAME = "SportsTriviaPrefs";
+    private static final String FLAGGED_KEY = "flagged_questions";
 
     private TextView scoreText;
     private TextView categoryText;
@@ -18,6 +24,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button answerA, answerB, answerC, answerD;
     private Button nextButton;
     private Button newGameButton;
+    private Button flagButton;
     private Button[] answerButtons;
 
     private QuestionBank questionBank;
@@ -25,11 +32,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private int currentQuestionIndex = 0;
     private int score = 0;
     private boolean answered = false;
+    private boolean flagConfirmPending = false;
+
+    private SharedPreferences prefs;
+    private Set<String> flaggedQuestions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        flaggedQuestions = new HashSet<>(prefs.getStringSet(FLAGGED_KEY, new HashSet<String>()));
 
         scoreText = findViewById(R.id.scoreText);
         categoryText = findViewById(R.id.categoryText);
@@ -42,6 +56,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         answerD = findViewById(R.id.answerD);
         nextButton = findViewById(R.id.nextButton);
         newGameButton = findViewById(R.id.newGameButton);
+        flagButton = findViewById(R.id.flagButton);
 
         answerButtons = new Button[]{answerA, answerB, answerC, answerD};
 
@@ -50,6 +65,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
         nextButton.setOnClickListener(this);
         newGameButton.setOnClickListener(this);
+        flagButton.setOnClickListener(this);
 
         startNewGame();
     }
@@ -57,6 +73,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         int id = v.getId();
+
+        if (id == R.id.flagButton) {
+            handleFlagClick();
+            return;
+        }
 
         if (id == R.id.nextButton) {
             currentQuestionIndex++;
@@ -88,16 +109,62 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
+    private void handleFlagClick() {
+        if (!flagConfirmPending) {
+            // First tap: switch to confirmation state
+            flagConfirmPending = true;
+            flagButton.setText("Confirm?");
+            flagButton.setBackgroundColor(getResources().getColor(R.color.flag_confirm));
+        } else {
+            // Second tap: confirmed — flag and remove this question
+            flagConfirmPending = false;
+            Question q = questions.get(currentQuestionIndex);
+            flaggedQuestions.add(q.getQuestionText());
+            saveFlaggedQuestions();
+
+            // Remove from current game list
+            questions.remove(currentQuestionIndex);
+
+            if (questions.isEmpty()) {
+                showGameOver();
+            } else {
+                // If we removed the last question, back up the index
+                if (currentQuestionIndex >= questions.size()) {
+                    currentQuestionIndex = questions.size() - 1;
+                }
+                showQuestion();
+            }
+        }
+    }
+
+    private void saveFlaggedQuestions() {
+        prefs.edit().putStringSet(FLAGGED_KEY, new HashSet<>(flaggedQuestions)).apply();
+    }
+
     private void startNewGame() {
         questionBank = new QuestionBank();
-        questions = questionBank.getShuffledQuestions();
+        questions = questionBank.getShuffledQuestions(flaggedQuestions);
         currentQuestionIndex = 0;
         score = 0;
+
+        if (questions.isEmpty()) {
+            questionNumber.setText("No Questions Available");
+            questionText.setText("All questions have been flagged. Reinstall to reset.");
+            categoryText.setVisibility(View.GONE);
+            for (Button btn : answerButtons) {
+                btn.setVisibility(View.GONE);
+            }
+            flagButton.setVisibility(View.GONE);
+            nextButton.setVisibility(View.GONE);
+            newGameButton.setVisibility(View.VISIBLE);
+            return;
+        }
 
         categoryText.setVisibility(View.VISIBLE);
         for (Button btn : answerButtons) {
             btn.setVisibility(View.VISIBLE);
         }
+        flagButton.setVisibility(View.VISIBLE);
         newGameButton.setVisibility(View.VISIBLE);
 
         updateScore();
@@ -106,6 +173,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void showQuestion() {
         answered = false;
+        flagConfirmPending = false;
+        flagButton.setText("Flag");
+        flagButton.setBackgroundColor(getResources().getColor(R.color.flag_button));
+        flagButton.setVisibility(View.VISIBLE);
+
         Question q = questions.get(currentQuestionIndex);
 
         categoryText.setText(q.getCategory());
@@ -125,6 +197,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             answerButtons[i].setBackgroundColor(getResources().getColor(R.color.default_button));
             answerButtons[i].setTextColor(getResources().getColor(R.color.default_button_text));
             answerButtons[i].setEnabled(true);
+            answerButtons[i].setVisibility(View.VISIBLE);
         }
 
         resultText.setVisibility(View.GONE);
@@ -174,12 +247,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
             btn.setVisibility(View.GONE);
         }
 
+        flagButton.setVisibility(View.GONE);
         resultText.setVisibility(View.GONE);
         nextButton.setVisibility(View.GONE);
         newGameButton.setVisibility(View.VISIBLE);
     }
 
     private String getPerformanceMessage() {
+        if (questions.isEmpty()) return "No questions were answered.";
         double percentage = (double) score / questions.size() * 100;
         if (percentage >= 90) return "Outstanding! You're a true sports expert!";
         if (percentage >= 70) return "Great job! You really know your sports!";

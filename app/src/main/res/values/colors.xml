@@ -13,4 +13,6 @@
     <color name="score_zero">#FFFFFF</color>
     <color name="football_accent">#8B4513</color>
     <color name="baseball_accent">#C62828</color>
+    <color name="flag_button">#B71C1C</color>
+    <color name="flag_confirm">#FF6F00</color>
 </resources>
