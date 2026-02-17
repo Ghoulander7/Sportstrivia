@@ -1,16 +1,14 @@
 package com.example.sportstrivia;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.List;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     private TextView scoreText;
     private TextView categoryText;
@@ -47,45 +45,47 @@ public class MainActivity extends Activity {
 
         answerButtons = new Button[]{answerA, answerB, answerC, answerD};
 
-        View.OnClickListener answerListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (answered) return;
-                int selectedIndex = -1;
-                for (int i = 0; i < answerButtons.length; i++) {
-                    if (v == answerButtons[i]) {
-                        selectedIndex = i;
-                        break;
-                    }
-                }
-                handleAnswer(selectedIndex);
-            }
-        };
-
         for (Button btn : answerButtons) {
-            btn.setOnClickListener(answerListener);
+            btn.setOnClickListener(this);
         }
-
-        nextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                currentQuestionIndex++;
-                if (currentQuestionIndex < questions.size()) {
-                    showQuestion();
-                } else {
-                    showGameOver();
-                }
-            }
-        });
-
-        newGameButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startNewGame();
-            }
-        });
+        nextButton.setOnClickListener(this);
+        newGameButton.setOnClickListener(this);
 
         startNewGame();
+    }
+
+    @Override
+    public void onClick(View v) {
+        int id = v.getId();
+
+        if (id == R.id.nextButton) {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.size()) {
+                showQuestion();
+            } else {
+                showGameOver();
+            }
+            return;
+        }
+
+        if (id == R.id.newGameButton) {
+            startNewGame();
+            return;
+        }
+
+        // Answer buttons
+        if (!answered) {
+            int selectedIndex = -1;
+            for (int i = 0; i < answerButtons.length; i++) {
+                if (v == answerButtons[i]) {
+                    selectedIndex = i;
+                    break;
+                }
+            }
+            if (selectedIndex >= 0) {
+                handleAnswer(selectedIndex);
+            }
+        }
     }
 
     private void startNewGame() {
@@ -93,6 +93,13 @@ public class MainActivity extends Activity {
         questions = questionBank.getShuffledQuestions();
         currentQuestionIndex = 0;
         score = 0;
+
+        categoryText.setVisibility(View.VISIBLE);
+        for (Button btn : answerButtons) {
+            btn.setVisibility(View.VISIBLE);
+        }
+        newGameButton.setVisibility(View.VISIBLE);
+
         updateScore();
         showQuestion();
     }
@@ -101,7 +108,6 @@ public class MainActivity extends Activity {
         answered = false;
         Question q = questions.get(currentQuestionIndex);
 
-        // Update category badge
         categoryText.setText(q.getCategory());
         if ("Baseball".equals(q.getCategory())) {
             categoryText.setBackgroundColor(getResources().getColor(R.color.baseball_accent));
@@ -109,13 +115,9 @@ public class MainActivity extends Activity {
             categoryText.setBackgroundColor(getResources().getColor(R.color.football_accent));
         }
 
-        // Update question number
         questionNumber.setText("Question " + (currentQuestionIndex + 1) + " of " + questions.size());
-
-        // Update question text
         questionText.setText(q.getQuestionText());
 
-        // Update answer buttons
         String[] answers = q.getAnswers();
         String[] labels = {"A", "B", "C", "D"};
         for (int i = 0; i < answerButtons.length; i++) {
@@ -125,7 +127,6 @@ public class MainActivity extends Activity {
             answerButtons[i].setEnabled(true);
         }
 
-        // Hide result and next button
         resultText.setVisibility(View.GONE);
         nextButton.setVisibility(View.GONE);
     }
@@ -145,26 +146,22 @@ public class MainActivity extends Activity {
             resultText.setText("Wrong! The answer is: " + q.getAnswers()[q.getCorrectAnswerIndex()]);
             resultText.setTextColor(getResources().getColor(R.color.wrong_red));
             answerButtons[selectedIndex].setBackgroundColor(getResources().getColor(R.color.wrong_red));
-            // Highlight the correct answer
             answerButtons[q.getCorrectAnswerIndex()].setBackgroundColor(getResources().getColor(R.color.correct_green));
         }
 
         resultText.setVisibility(View.VISIBLE);
         updateScore();
 
-        // Disable all answer buttons
         for (Button btn : answerButtons) {
             btn.setEnabled(false);
         }
 
-        // Show next button or game over
         if (currentQuestionIndex < questions.size() - 1) {
             nextButton.setText("Next Question");
-            nextButton.setVisibility(View.VISIBLE);
         } else {
             nextButton.setText("See Results");
-            nextButton.setVisibility(View.VISIBLE);
         }
+        nextButton.setVisibility(View.VISIBLE);
     }
 
     private void showGameOver() {
