@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Football shape (left) -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M28,58 Q28,48 34,42 Q40,36 48,36 Q40,36 34,42 Q28,48 28,58
+                          M28,58 Q28,68 34,74 Q40,80 48,80 Q40,80 34,74 Q28,68 28,58
+                          M28,58 Q28,48 34,42 Q40,36 48,36 Q56,36 62,42 Q68,48 68,58
+                          Q68,68 62,74 Q56,80 48,80 Q40,80 34,74 Q28,68 28,58Z" />
+
+    <!-- Football laces -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M43,44 L53,44 M48,40 L48,48
+                          M43,54 L53,54
+                          M43,62 L53,62
+                          M43,72 L53,72 M48,68 L48,76" />
+
+    <!-- Baseball (right-top) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,38 m-10,0 a10,10 0,1,1 20,0 a10,10 0,1,1 -20,0" />
+
+    <!-- Baseball stitching -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#C62828"
+        android:strokeWidth="1.2"
+        android:pathData="M64,33 Q68,38 64,43 M80,33 Q76,38 80,43" />
+
+    <!-- Star bottom -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M72,72 L74.5,67 L80,67 L75.5,63 L77.5,58 L72,61.5 L66.5,58 L68.5,63 L64,67 L69.5,67Z" />
+
+</vector>
