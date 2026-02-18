@@ -69,6 +69,9 @@ public class Question {
             decimalPlaces = clean.length() - clean.indexOf('.') - 1;
         }
 
+        // Sacks are only recorded as whole numbers or .5
+        boolean isSackQuestion = questionText.toLowerCase().contains("sacks");
+
         // 10% of the correct value as the range
         double range = Math.abs(correctVal) * 0.10;
 
@@ -76,6 +79,10 @@ public class Question {
         double minStep = 1.0;
         for (int i = 0; i < decimalPlaces; i++) {
             minStep /= 10.0;
+        }
+        if (isSackQuestion) {
+            minStep = 0.5;
+            if (range < 2.0) range = 2.0;
         }
         if (range < minStep * 2) {
             range = minStep * 2;
@@ -92,10 +99,21 @@ public class Question {
             if (Math.abs(offset) < minStep) continue;
 
             double newVal = correctVal + offset;
+
+            // Snap to nearest .5 for sack questions
+            if (isSackQuestion) {
+                newVal = Math.round(newVal * 2) / 2.0;
+            }
+
             // Never allow negative values when the correct answer is positive
             if (newVal <= 0 && correctVal > 0) continue;
 
-            String formatted = formatNumber(newVal, hasComma, hasPercent, hasDecimal, decimalPlaces);
+            String formatted;
+            if (isSackQuestion) {
+                formatted = formatSackNumber(newVal, hasComma);
+            } else {
+                formatted = formatNumber(newVal, hasComma, hasPercent, hasDecimal, decimalPlaces);
+            }
             // Don't duplicate the correct answer or another choice
             if (!choices.contains(formatted)) {
                 choices.add(formatted);
@@ -107,11 +125,21 @@ public class Question {
         while (choices.size() < 4) {
             double step = minStep * direction * choices.size();
             double fallback = correctVal + step;
+
+            if (isSackQuestion) {
+                fallback = Math.round(fallback * 2) / 2.0;
+            }
+
             if (fallback <= 0 && correctVal > 0) {
                 direction = 1;
                 continue;
             }
-            String formatted = formatNumber(fallback, hasComma, hasPercent, hasDecimal, decimalPlaces);
+            String formatted;
+            if (isSackQuestion) {
+                formatted = formatSackNumber(fallback, hasComma);
+            } else {
+                formatted = formatNumber(fallback, hasComma, hasPercent, hasDecimal, decimalPlaces);
+            }
             if (!choices.contains(formatted)) {
                 choices.add(formatted);
             }
@@ -146,6 +174,19 @@ public class Question {
 
     private double parseNumber(String s) {
         return Double.parseDouble(s.replace(",", "").replace("%", "").trim());
+    }
+
+    private String formatSackNumber(double val, boolean comma) {
+        if (val == Math.floor(val)) {
+            // Whole number
+            long intVal = (long) val;
+            return comma ? String.format("%,d", intVal) : String.valueOf(intVal);
+        } else {
+            // Has .5
+            long intPart = (long) val;
+            String intStr = comma ? String.format("%,d", intPart) : String.valueOf(intPart);
+            return intStr + ".5";
+        }
     }
 
     private String formatNumber(double val, boolean comma, boolean percent, boolean decimal, int decPlaces) {
