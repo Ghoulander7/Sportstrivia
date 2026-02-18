@@ -69,37 +69,53 @@ public class Question {
             decimalPlaces = clean.length() - clean.indexOf('.') - 1;
         }
 
+        // 10% of the correct value as the range
         double range = Math.abs(correctVal) * 0.10;
-        if (range < 1) range = 1;
+
+        // Minimum range based on decimal precision so small numbers still spread
+        double minStep = 1.0;
+        for (int i = 0; i < decimalPlaces; i++) {
+            minStep /= 10.0;
+        }
+        if (range < minStep * 2) {
+            range = minStep * 2;
+        }
 
         List<String> choices = new ArrayList<>();
         choices.add(correctAnswer);
 
         int attempts = 0;
-        while (choices.size() < 4 && attempts < 200) {
+        while (choices.size() < 4 && attempts < 500) {
             attempts++;
+            // Random offset between -range and +range, excluding values too close
             double offset = (random.nextDouble() * 2 - 1) * range;
-            // Don't generate values too close to correct
-            if (Math.abs(offset) < range * 0.15) continue;
+            if (Math.abs(offset) < minStep) continue;
 
             double newVal = correctVal + offset;
-            if (newVal < 0 && correctVal > 0) continue;
+            // Never allow negative values when the correct answer is positive
+            if (newVal <= 0 && correctVal > 0) continue;
 
             String formatted = formatNumber(newVal, hasComma, hasPercent, hasDecimal, decimalPlaces);
+            // Don't duplicate the correct answer or another choice
             if (!choices.contains(formatted)) {
                 choices.add(formatted);
             }
         }
 
-        // Fallback if we somehow couldn't generate enough
+        // Fallback: step away from correct value in fixed increments
+        int direction = 1;
         while (choices.size() < 4) {
-            double fallback = correctVal + (choices.size() * range * 0.3);
+            double step = minStep * direction * choices.size();
+            double fallback = correctVal + step;
+            if (fallback <= 0 && correctVal > 0) {
+                direction = 1;
+                continue;
+            }
             String formatted = formatNumber(fallback, hasComma, hasPercent, hasDecimal, decimalPlaces);
             if (!choices.contains(formatted)) {
                 choices.add(formatted);
-            } else {
-                choices.add(formatNumber(fallback + 1, hasComma, hasPercent, hasDecimal, decimalPlaces));
             }
+            direction = -direction;
         }
 
         Collections.shuffle(choices, random);
