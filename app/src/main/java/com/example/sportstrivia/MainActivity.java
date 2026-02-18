@@ -15,6 +15,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private static final String PREFS_NAME = "SportsTriviaPrefs";
     private static final String FLAGGED_KEY = "flagged_questions";
+    private static final String DB_VERSION_KEY = "db_version";
+    private static final int CURRENT_DB_VERSION = 2;
 
     private TextView scoreText;
     private TextView categoryText;
@@ -43,6 +45,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        if (prefs.getInt(DB_VERSION_KEY, 0) < CURRENT_DB_VERSION) {
+            prefs.edit()
+                .remove(FLAGGED_KEY)
+                .putInt(DB_VERSION_KEY, CURRENT_DB_VERSION)
+                .apply();
+        }
         flaggedQuestions = new HashSet<>(prefs.getStringSet(FLAGGED_KEY, new HashSet<String>()));
 
         scoreText = findViewById(R.id.scoreText);

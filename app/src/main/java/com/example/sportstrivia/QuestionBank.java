@@ -490,7 +490,7 @@ public class QuestionBank {
                 new String[]{"An illegal pitch motion by the pitcher", "A foul ball hit backwards", "A missed tag on a runner", "An out-of-bounds throw"}, 0));
 
         questions.add(new Question("Baseball",
-                "How many balls result in a walk (base on balls)?",
+                "How many balls result in a walk?",
                 new String[]{"3", "4", "5", "6"}, 1));
 
         questions.add(new Question("Baseball",
@@ -560,7 +560,7 @@ public class QuestionBank {
                 new String[]{"No runs allowed", "No hits allowed", "No batter reaches base for the entire game", "Striking out every batter"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many perfect games have been thrown in MLB history (approximately)?",
+                "How many perfect games have been thrown in MLB history?",
                 new String[]{"10", "16", "23", "30"}, 2));
 
         questions.add(new Question("Baseball",
@@ -790,7 +790,7 @@ public class QuestionBank {
                 new String[]{"4,256", "5,793", "5,100", "4,888"}, 1));
 
         questions.add(new Question("Baseball",
-                "What is the highest single-season slugging percentage in MLB history (.863)?",
+                "What is the highest single-season slugging percentage in MLB history?",
                 new String[]{"Babe Ruth, 1920", "Barry Bonds, 2001", "Ted Williams, 1941", "Mark McGwire, 1998"}, 1));
 
         questions.add(new Question("Baseball",
@@ -802,7 +802,7 @@ public class QuestionBank {
                 new String[]{".338", ".350", ".372", ".312"}, 0));
 
         questions.add(new Question("Baseball",
-                "How many career extra-base hits did Hank Aaron accumulate (1,477)?",
+                "How many career extra-base hits did Hank Aaron accumulate?",
                 new String[]{"1,200", "1,350", "1,477", "1,560"}, 2));
 
         questions.add(new Question("Baseball",
@@ -810,7 +810,7 @@ public class QuestionBank {
                 new String[]{"8", "10", "12", "14"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the highest single-season OPS in MLB history (1.4217)?",
+                "What was the highest single-season OPS in MLB history?",
                 new String[]{"Babe Ruth, 1920", "Barry Bonds, 2004", "Ted Williams, 1941", "Barry Bonds, 2001"}, 1));
 
         // --- Pitching Stats ---
@@ -828,7 +828,7 @@ public class QuestionBank {
                 new String[]{"3,500", "4,672", "4,136", "3,871"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career innings did Cy Young pitch (7,356)?",
+                "How many career innings did Cy Young pitch?",
                 new String[]{"5,941", "6,500", "7,356", "8,100"}, 2));
 
         questions.add(new Question("Baseball",
@@ -840,7 +840,7 @@ public class QuestionBank {
                 new String[]{"216", "270", "316", "350"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Sandy Koufax's ERA in his final season (1966)?",
+                "What was Sandy Koufax's ERA in his final season?",
                 new String[]{"1.73", "1.92", "2.04", "1.50"}, 0));
 
         questions.add(new Question("Baseball",
@@ -852,7 +852,7 @@ public class QuestionBank {
                 new String[]{"1,800", "2,015", "2,795", "2,400"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Greg Maddux's ERA during his four consecutive Cy Young seasons (1992-1995)?",
+                "What was Greg Maddux's ERA during his four consecutive Cy Young seasons?",
                 new String[]{"1.98", "2.15", "1.60", "2.45"}, 0));
 
         questions.add(new Question("Baseball",
@@ -860,7 +860,7 @@ public class QuestionBank {
                 new String[]{"80", "90", "110", "100"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the most strikeouts in a single 9-inning game by a pitcher (20)?",
+                "What is the most strikeouts in a single 9-inning game by a pitcher?",
                 new String[]{"Nolan Ryan", "Roger Clemens", "Sandy Koufax", "Randy Johnson"}, 1));
 
         questions.add(new Question("Baseball",
@@ -940,7 +940,7 @@ public class QuestionBank {
                 new String[]{"15", "18", "20", "22"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the most runs scored by a team in a single World Series game (18)?",
+                "What is the most runs scored by a team in a single World Series game?",
                 new String[]{"Yankees, 1960", "Red Sox, 2007", "Diamondbacks, 2001", "Cardinals, 2011"}, 0));
 
         questions.add(new Question("Baseball",
@@ -950,7 +950,7 @@ public class QuestionBank {
         // --- Fielding and Miscellaneous Stats ---
 
         questions.add(new Question("Baseball",
-                "How many consecutive errorless games did Cal Ripken Jr. play at shortstop (95)?",
+                "How many consecutive errorless games did Cal Ripken Jr. play at shortstop?",
                 new String[]{"70", "80", "95", "110"}, 2));
 
         questions.add(new Question("Baseball",
@@ -962,15 +962,15 @@ public class QuestionBank {
                 new String[]{"10", "13", "16", "18"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career assists does Ozzie Smith hold the record for among shortstops (8,375)?",
+                "How many career assists does Ozzie Smith hold the record for among shortstops?",
                 new String[]{"7,200", "7,800", "8,375", "9,000"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the MLB record for most putouts in a career by an outfielder (7,095)?",
+                "What is the MLB record for most putouts in a career by an outfielder?",
                 new String[]{"Tris Speaker", "Willie Mays", "Rickey Henderson", "Roberto Clemente"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career double plays did Brooks Robinson turn at third base (618)?",
+                "How many career double plays did Brooks Robinson turn at third base?",
                 new String[]{"450", "520", "618", "700"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1044,7 +1044,7 @@ public class QuestionBank {
                 new String[]{"12,364", "13,768", "14,053", "15,000"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the lowest team ERA in a season since 1920 (2.72 by the 1968 Cardinals)?",
+                "What was the lowest team ERA in a season since 1920?",
                 new String[]{"2.42", "2.56", "2.72", "2.85"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1056,11 +1056,11 @@ public class QuestionBank {
                 new String[]{"4", "6", "8", "10"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the longest game in MLB history by innings (26 innings)?",
+                "What was the longest game in MLB history by innings?",
                 new String[]{"Braves vs. Dodgers, 1920", "Red Sox vs. Dodgers, 2018", "White Sox vs. Brewers, 1984", "Cardinals vs. Mets, 1974"}, 0));
 
         questions.add(new Question("Baseball",
-                "How many consecutive batting titles did Rogers Hornsby win (6, from 1920-1925)?",
+                "How many consecutive batting titles did Rogers Hornsby win?",
                 new String[]{"4", "5", "6", "7"}, 2));
 
         // === 300 MORE BASEBALL QUESTIONS ===
@@ -1074,55 +1074,55 @@ public class QuestionBank {
                 new String[]{"Walter Johnson", "Rube Marquard", "Christy Mathewson", "Cy Young"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career sacrifice hits did Eddie Collins accumulate — an AL record (512)?",
+                "How many career sacrifice hits did Eddie Collins accumulate — an AL record?",
                 new String[]{"380", "440", "512", "560"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most hits in a single game by one player (7)?",
+                "What was the most hits in a single game by one player?",
                 new String[]{"Ty Cobb", "Rennie Stennett", "Pete Rose", "Kirby Puckett"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career pinch hits did Lenny Harris accumulate — the all-time record (212)?",
+                "How many career pinch hits did Lenny Harris accumulate — the all-time record?",
                 new String[]{"175", "190", "212", "230"}, 2));
 
         questions.add(new Question("Baseball",
-                "Who holds the record for most consecutive plate appearances reaching base (16)?",
+                "Who holds the record for most consecutive plate appearances reaching base?",
                 new String[]{"Ted Williams", "Barry Bonds", "Babe Ruth", "Joey Votto"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career intentional walks did Barry Bonds receive — the all-time record (688)?",
+                "How many career intentional walks did Barry Bonds receive — the all-time record?",
                 new String[]{"500", "600", "688", "750"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most runs scored by a team in a single inning (17)?",
+                "What was the most runs scored by a team in a single inning?",
                 new String[]{"Red Sox, 1953", "Yankees, 1927", "Rangers, 2007", "Dodgers, 2020"}, 0));
 
         questions.add(new Question("Baseball",
-                "How many career hit-by-pitches did Hughie Jennings accumulate — the all-time record (287)?",
+                "How many career hit-by-pitches did Hughie Jennings accumulate — the all-time record?",
                 new String[]{"200", "245", "287", "310"}, 2));
 
         questions.add(new Question("Baseball",
-                "Who holds the record for most times grounding into a double play in a career (350)?",
+                "Who holds the record for most times grounding into a double play in a career?",
                 new String[]{"Cal Ripken Jr.", "Hank Aaron", "Albert Pujols", "Jim Rice"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most stolen bases in a single game (7)?",
+                "What is the record for most stolen bases in a single game?",
                 new String[]{"Rickey Henderson", "Billy Hamilton", "Vince Coleman", "George Gore"}, 3));
 
         questions.add(new Question("Baseball",
-                "How many career triples did Ty Cobb hit (295)?",
+                "How many career triples did Ty Cobb hit?",
                 new String[]{"250", "275", "295", "315"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most home runs in a month (20 by Sammy Sosa in June 1998)?",
+                "What is the record for most home runs in a month?",
                 new String[]{"16", "18", "20", "22"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career sacrifice flies did Eddie Murray hit — the all-time record (128)?",
+                "How many career sacrifice flies did Eddie Murray hit — the all-time record?",
                 new String[]{"100", "110", "128", "140"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most total bases in a single game (18 by Shawn Green)?",
+                "What is the record for most total bases in a single game?",
                 new String[]{"15", "16", "18", "20"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1130,71 +1130,71 @@ public class QuestionBank {
                 new String[]{"3", "4", "5", "6"}, 1));
 
         questions.add(new Question("Baseball",
-                "What is the record for the most consecutive games with a home run (8)?",
+                "What is the record for the most consecutive games with a home run?",
                 new String[]{"Mark McGwire", "Dale Long", "Don Mattingly", "Ken Griffey Jr."}, 3));
 
         questions.add(new Question("Baseball",
-                "How many career plate appearances did Pete Rose accumulate — the all-time record (15,890)?",
+                "How many career plate appearances did Pete Rose accumulate — the all-time record?",
                 new String[]{"14,500", "15,000", "15,890", "16,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the highest team batting average in a season (.319 by the 1930 Giants)?",
+                "What was the highest team batting average in a single season?",
                 new String[]{".301", ".310", ".319", ".325"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many home runs did the 2019 Twins hit as a team — an MLB record (307)?",
+                "How many home runs did the 2019 Twins hit as a team — an MLB record?",
                 new String[]{"275", "290", "307", "315"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most home runs in a single postseason by a player (8)?",
+                "What is the record for most home runs in a single postseason by a player?",
                 new String[]{"Barry Bonds, 2002", "Nelson Cruz, 2011", "Carlos Beltran, 2004", "All of the above"}, 3));
 
         questions.add(new Question("Baseball",
-                "How many innings did the longest scoreless World Series game last (14 innings, 1916)?",
+                "How many innings did the longest scoreless World Series game last?",
                 new String[]{"11", "12", "14", "16"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most runs scored in a single All-Star Game (combined 26 in 2002)?",
+                "What was the most runs scored in a single All-Star Game?",
                 new String[]{"18", "22", "26", "30"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wild pitches did Nolan Ryan throw — the all-time record (277)?",
+                "How many career wild pitches did Nolan Ryan throw — the all-time record?",
                 new String[]{"200", "240", "277", "300"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most strikeouts in a single extra-inning game by a pitcher (21)?",
+                "What is the record for most strikeouts in a single extra-inning game by a pitcher?",
                 new String[]{"Tom Cheney", "Roger Clemens", "Nolan Ryan", "Randy Johnson"}, 0));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Ernie Banks hit (512)?",
+                "How many career home runs did Ernie Banks hit?",
                 new String[]{"475", "490", "512", "530"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Mike Schmidt hit (548)?",
+                "How many career home runs did Mike Schmidt hit?",
                 new String[]{"500", "525", "548", "570"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most wins by a team in a single season (116 by the 2001 Mariners)?",
+                "What was the most wins by a team in a single season?",
                 new String[]{"108", "112", "116", "120"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most losses by a team in a single season (120 by the 1962 Mets)?",
+                "What was the most losses by a team in a single season?",
                 new String[]{"110", "115", "120", "125"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Harmon Killebrew hit (573)?",
+                "How many career home runs did Harmon Killebrew hit?",
                 new String[]{"530", "550", "573", "600"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Rafael Palmeiro hit (569)?",
+                "How many career home runs did Rafael Palmeiro hit?",
                 new String[]{"530", "550", "569", "590"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Reggie Jackson hit (563)?",
+                "How many career home runs did Reggie Jackson hit?",
                 new String[]{"520", "540", "563", "580"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did Reggie Jackson accumulate as a batter — the all-time record (2,597)?",
+                "How many career strikeouts did Reggie Jackson accumulate as a batter — the all-time record?",
                 new String[]{"2,200", "2,400", "2,597", "2,800"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1202,19 +1202,19 @@ public class QuestionBank {
                 new String[]{"58", "60", "61", "64"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the longest professional baseball game ever by innings (33 innings, 1981 minor league)?",
+                "What was the longest professional baseball game ever by innings?",
                 new String[]{"26", "29", "33", "36"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Steve Carlton accumulate (329)?",
+                "How many career wins did Steve Carlton accumulate?",
                 new String[]{"290", "310", "329", "350"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Warren Spahn accumulate — the most by a left-hander (363)?",
+                "How many career wins did Warren Spahn accumulate — the most by a left-hander?",
                 new String[]{"330", "345", "363", "380"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career shutouts did Grover Alexander throw (90)?",
+                "How many career shutouts did Grover Alexander throw?",
                 new String[]{"70", "80", "90", "100"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1222,155 +1222,155 @@ public class QuestionBank {
                 new String[]{"10", "11", "12", "13"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most strikeouts by a rookie pitcher in a season (276 by Dwight Gooden, 1984)?",
+                "What was the most strikeouts by a rookie pitcher in a season?",
                 new String[]{"245", "260", "276", "290"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Eddie Mathews hit (512)?",
+                "How many career home runs did Eddie Mathews hit?",
                 new String[]{"475", "490", "512", "530"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Mel Ott hit (511)?",
+                "How many career home runs did Mel Ott hit?",
                 new String[]{"475", "495", "511", "530"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Ted Williams hit (521)?",
+                "How many career home runs did Ted Williams hit?",
                 new String[]{"490", "505", "521", "540"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career RBIs did Babe Ruth accumulate (2,214)?",
+                "How many career RBIs did Babe Ruth accumulate?",
                 new String[]{"1,900", "2,050", "2,214", "2,350"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career walks did Barry Bonds draw in his record 2004 season (232)?",
+                "How many career walks did Barry Bonds draw in his record 2004 season?",
                 new String[]{"180", "200", "232", "250"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Jeff Bagwell's OPS in his 1994 MVP season (1.201)?",
+                "What was Jeff Bagwell's OPS in his 1994 MVP season?",
                 new String[]{"1.050", "1.100", "1.201", "1.300"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many consecutive games did Orel Hershiser go without allowing an earned run in 1988 (59 IP)?",
+                "How many consecutive games did Orel Hershiser go without allowing an earned run in 1988?",
                 new String[]{"6", "8", "10", "7"}, 0));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Gaylord Perry accumulate (314)?",
+                "How many career wins did Gaylord Perry accumulate?",
                 new String[]{"280", "300", "314", "330"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Early Wynn accumulate — exactly (300)?",
+                "How many career wins did Early Wynn accumulate — exactly?",
                 new String[]{"280", "290", "300", "310"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did Lee Smith accumulate (478)?",
+                "How many career saves did Lee Smith accumulate?",
                 new String[]{"420", "450", "478", "500"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most home runs hit by a team in a single game (10)?",
+                "What was the most home runs hit by a team in a single game?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many unassisted triple plays have occurred in MLB history (approximately 15)?",
+                "How many unassisted triple plays have occurred in MLB history?",
                 new String[]{"5", "10", "15", "20"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career errors did Herman Long commit — the all-time record for a shortstop (1,096)?",
+                "How many career errors did Herman Long commit — the all-time record for a shortstop?",
                 new String[]{"800", "950", "1,096", "1,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the highest slugging percentage by a pitcher in a season (.632 by Wes Ferrell)?",
+                "What was the highest slugging percentage by a pitcher in a single season?",
                 new String[]{".500", ".560", ".632", ".700"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did David Ortiz hit (541)?",
+                "How many career home runs did David Ortiz hit?",
                 new String[]{"480", "510", "541", "565"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Manny Ramirez hit (555)?",
+                "How many career home runs did Manny Ramirez hit?",
                 new String[]{"510", "535", "555", "575"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Mickey Mantle hit (536)?",
+                "How many career home runs did Mickey Mantle hit?",
                 new String[]{"490", "515", "536", "560"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Jim Thome hit (612)?",
+                "How many career home runs did Jim Thome hit?",
                 new String[]{"570", "590", "612", "635"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Sammy Sosa hit (609)?",
+                "How many career home runs did Sammy Sosa hit?",
                 new String[]{"570", "590", "609", "630"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Gary Sheffield hit (509)?",
+                "How many career home runs did Gary Sheffield hit?",
                 new String[]{"470", "490", "509", "530"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Carlos Delgado hit (473)?",
+                "How many career home runs did Carlos Delgado hit?",
                 new String[]{"430", "455", "473", "500"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Willie Stargell hit (475)?",
+                "How many career home runs did Willie Stargell hit?",
                 new String[]{"440", "460", "475", "500"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Stan Musial hit (475)?",
+                "How many career home runs did Stan Musial hit?",
                 new String[]{"440", "460", "475", "500"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Joe DiMaggio's career batting average (.325)?",
+                "What was Joe DiMaggio's career batting average?",
                 new String[]{".305", ".315", ".325", ".340"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Chipper Jones hit (468)?",
+                "How many career home runs did Chipper Jones hit?",
                 new String[]{"430", "450", "468", "490"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career RBIs did Cap Anson accumulate — one of the early all-time leaders (2,075)?",
+                "How many career RBIs did Cap Anson accumulate — one of the early all-time leaders?",
                 new String[]{"1,800", "1,950", "2,075", "2,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most wins in a row by a pitcher in a single season (19)?",
+                "What is the record for most wins in a row by a pitcher in a single season?",
                 new String[]{"15", "17", "19", "21"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Don Sutton accumulate (324)?",
+                "How many career wins did Don Sutton accumulate?",
                 new String[]{"290", "310", "324", "340"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Phil Niekro accumulate (318)?",
+                "How many career wins did Phil Niekro accumulate?",
                 new String[]{"280", "300", "318", "340"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did Tom Seaver accumulate (3,640)?",
+                "How many career strikeouts did Tom Seaver accumulate?",
                 new String[]{"3,200", "3,400", "3,640", "3,800"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did Gaylord Perry accumulate (3,534)?",
+                "How many career strikeouts did Gaylord Perry accumulate?",
                 new String[]{"3,100", "3,300", "3,534", "3,700"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did Bob Feller accumulate (2,581)?",
+                "How many career strikeouts did Bob Feller accumulate?",
                 new String[]{"2,200", "2,400", "2,581", "2,750"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career shutouts did Christy Mathewson throw (79)?",
+                "How many career shutouts did Christy Mathewson throw?",
                 new String[]{"60", "70", "79", "90"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Sandy Koufax's career strikeout rate (K/9) in his final four seasons (approximately 9.3)?",
+                "What was Sandy Koufax's career strikeout rate (K/9) in his final four seasons?",
                 new String[]{"7.8", "8.5", "9.3", "10.1"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career complete games did Bob Gibson throw (255)?",
+                "How many career complete games did Bob Gibson throw?",
                 new String[]{"200", "230", "255", "280"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Lefty Grove accumulate (300)?",
+                "How many career wins did Lefty Grove accumulate?",
                 new String[]{"275", "285", "300", "310"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Lefty Grove's career winning percentage (.680)?",
+                "What was Lefty Grove's career winning percentage?",
                 new String[]{".620", ".650", ".680", ".710"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1378,95 +1378,95 @@ public class QuestionBank {
                 new String[]{"14", "16", "18", "20"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Vladimir Guerrero Sr. hit (449)?",
+                "How many career home runs did Vladimir Guerrero Sr. hit?",
                 new String[]{"410", "430", "449", "470"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Wade Boggs accumulate (3,010)?",
+                "How many career hits did Wade Boggs accumulate?",
                 new String[]{"2,800", "2,900", "3,010", "3,150"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Rod Carew accumulate (3,053)?",
+                "How many career hits did Rod Carew accumulate?",
                 new String[]{"2,850", "2,950", "3,053", "3,150"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Ichiro Suzuki accumulate in MLB (3,089)?",
+                "How many career hits did Ichiro Suzuki accumulate in MLB?",
                 new String[]{"2,800", "2,950", "3,089", "3,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Paul Molitor accumulate (3,319)?",
+                "How many career hits did Paul Molitor accumulate?",
                 new String[]{"3,000", "3,150", "3,319", "3,450"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Eddie Collins accumulate (3,315)?",
+                "How many career hits did Eddie Collins accumulate?",
                 new String[]{"3,000", "3,150", "3,315", "3,450"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Robin Yount accumulate (3,142)?",
+                "How many career hits did Robin Yount accumulate?",
                 new String[]{"2,900", "3,050", "3,142", "3,250"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did George Brett accumulate (3,154)?",
+                "How many career hits did George Brett accumulate?",
                 new String[]{"2,900", "3,050", "3,154", "3,250"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Craig Biggio accumulate (3,060)?",
+                "How many career hits did Craig Biggio accumulate?",
                 new String[]{"2,800", "2,950", "3,060", "3,150"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Tony Gwynn accumulate (3,141)?",
+                "How many career hits did Tony Gwynn accumulate?",
                 new String[]{"2,900", "3,050", "3,141", "3,250"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Bob Feller accumulate (266)?",
+                "How many career wins did Bob Feller accumulate?",
                 new String[]{"230", "250", "266", "285"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the lowest WHIP in a single season (0.737 by Pedro Martinez in 2000)?",
+                "What was the lowest WHIP in a single season?",
                 new String[]{"0.650", "0.737", "0.800", "0.850"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career saves did Dennis Eckersley accumulate (390)?",
+                "How many career saves did Dennis Eckersley accumulate?",
                 new String[]{"340", "365", "390", "410"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Dennis Eckersley's ERA in his 1992 Cy Young/MVP season (1.91)?",
+                "What was Dennis Eckersley's ERA in his 1992 Cy Young/MVP season?",
                 new String[]{"1.60", "1.75", "1.91", "2.10"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did John Franco accumulate (424)?",
+                "How many career saves did John Franco accumulate?",
                 new String[]{"380", "400", "424", "450"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did Billy Wagner accumulate (422)?",
+                "How many career saves did Billy Wagner accumulate?",
                 new String[]{"380", "400", "422", "445"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Eric Gagne's consecutive saves streak — an MLB record (84)?",
+                "What was Eric Gagne's consecutive saves streak — an MLB record?",
                 new String[]{"60", "72", "84", "90"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career complete games did Fergie Jenkins throw (267)?",
+                "How many career complete games did Fergie Jenkins throw?",
                 new String[]{"220", "245", "267", "290"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many seasons did Nolan Ryan lead the league in strikeouts (11)?",
+                "How many seasons did Nolan Ryan lead the league in strikeouts?",
                 new String[]{"7", "9", "11", "13"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many 200-hit seasons did Ichiro Suzuki have in MLB (10)?",
+                "How many 200-hit seasons did Ichiro Suzuki have in MLB?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many consecutive 200-hit seasons did Ichiro have to start his MLB career (10)?",
+                "How many consecutive 200-hit seasons did Ichiro have to start his MLB career?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many seasons did Pete Rose accumulate 200+ hits (10)?",
+                "How many seasons did Pete Rose accumulate 200+ hits?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most RBIs in a single game (12 by Mark Whiten in 1993)?",
+                "What was the most RBIs in a single game?",
                 new String[]{"9", "10", "12", "14"}, 2));
 
         questions.add(new Question("Baseball",
@@ -1474,295 +1474,295 @@ public class QuestionBank {
                 new String[]{"3", "4", "5", "6"}, 1));
 
         questions.add(new Question("Baseball",
-                "How many career games did Brooks Robinson play (2,896)?",
+                "How many career games did Brooks Robinson play?",
                 new String[]{"2,500", "2,700", "2,896", "3,000"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Andre Dawson hit (438)?",
+                "How many career home runs did Andre Dawson hit?",
                 new String[]{"400", "420", "438", "460"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Dave Winfield hit (465)?",
+                "How many career home runs did Dave Winfield hit?",
                 new String[]{"430", "450", "465", "490"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career RBIs did Alex Rodriguez accumulate (2,086)?",
+                "How many career RBIs did Alex Rodriguez accumulate?",
                 new String[]{"1,800", "1,950", "2,086", "2,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Jason Giambi hit (440)?",
+                "How many career home runs did Jason Giambi hit?",
                 new String[]{"390", "415", "440", "460"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Nolan Ryan's career ERA (3.19)?",
+                "What was Nolan Ryan's career ERA?",
                 new String[]{"2.76", "2.95", "3.19", "3.44"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hit batsmen did Gus Weyhing throw — the all-time record (277)?",
+                "How many career hit batsmen did Gus Weyhing throw — the all-time record?",
                 new String[]{"200", "240", "277", "310"}, 2));
 
         questions.add(new Question("Baseball",
-                "What is the record for most batters hit in a single season by a pitcher (40)?",
+                "What is the record for most batters hit in a single season by a pitcher?",
                 new String[]{"25", "30", "35", "40"}, 3));
 
         questions.add(new Question("Baseball",
-                "How many career stolen bases did Joe Morgan accumulate (689)?",
+                "How many career stolen bases did Joe Morgan accumulate?",
                 new String[]{"550", "620", "689", "730"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career stolen bases did Bert Campaneris accumulate (649)?",
+                "How many career stolen bases did Bert Campaneris accumulate?",
                 new String[]{"500", "575", "649", "700"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career stolen bases did Ty Cobb accumulate (897)?",
+                "How many career stolen bases did Ty Cobb accumulate?",
                 new String[]{"750", "825", "897", "950"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many times did Ty Cobb win the batting title (11 — tied for most ever)?",
+                "How many times did Ty Cobb win the batting title?",
                 new String[]{"8", "9", "11", "13"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the highest on-base percentage in a season (.609 by Barry Bonds in 2004)?",
+                "What was the highest on-base percentage in a single season?",
                 new String[]{".540", ".575", ".609", ".640"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career at-bats did Hank Aaron accumulate (12,364)?",
+                "How many career at-bats did Hank Aaron accumulate?",
                 new String[]{"10,500", "11,200", "12,364", "13,000"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career double plays did Bobby Richardson turn as a second baseman (1,074)?",
+                "How many career double plays did Bobby Richardson turn as a second baseman?",
                 new String[]{"800", "950", "1,074", "1,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most home runs in a single World Series by a player (5 by Chase Utley)?",
+                "What was the most home runs in a single World Series by a player?",
                 new String[]{"3", "4", "5", "6"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career postseason innings did Whitey Ford pitch (146)?",
+                "How many career postseason innings did Whitey Ford pitch?",
                 new String[]{"110", "130", "146", "165"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the most strikeouts in a single World Series game (17 by Bob Gibson)?",
+                "What was the most strikeouts in a single World Series game?",
                 new String[]{"14", "15", "17", "19"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career runs did Alex Rodriguez score (2,021)?",
+                "How many career runs did Alex Rodriguez score?",
                 new String[]{"1,800", "1,900", "2,021", "2,150"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many consecutive seasons did Willie Mays hit 20+ home runs (17)?",
+                "How many consecutive seasons did Willie Mays hit 20+ home runs?",
                 new String[]{"13", "15", "17", "19"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many home runs did Giancarlo Stanton hit in his 2017 NL MVP season (59)?",
+                "How many home runs did Giancarlo Stanton hit in his 2017 NL MVP season?",
                 new String[]{"50", "55", "59", "62"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did CC Sabathia accumulate (251)?",
+                "How many career wins did CC Sabathia accumulate?",
                 new String[]{"220", "235", "251", "270"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did CC Sabathia accumulate (3,093)?",
+                "How many career strikeouts did CC Sabathia accumulate?",
                 new String[]{"2,700", "2,900", "3,093", "3,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many home runs did Aaron Judge hit in his 2022 AL record-setting season (62)?",
+                "How many home runs did Aaron Judge hit in his 2022 AL record-setting season?",
                 new String[]{"58", "60", "62", "64"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Frank Thomas hit (521)?",
+                "How many career home runs did Frank Thomas hit?",
                 new String[]{"475", "500", "521", "545"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career stolen bases did Kenny Lofton accumulate (622)?",
+                "How many career stolen bases did Kenny Lofton accumulate?",
                 new String[]{"500", "560", "622", "680"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Roberto Alomar accumulate (2,724)?",
+                "How many career hits did Roberto Alomar accumulate?",
                 new String[]{"2,500", "2,600", "2,724", "2,850"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Miguel Cabrera's batting average in his 2012 Triple Crown season (.330)?",
+                "What was Miguel Cabrera's batting average in his 2012 Triple Crown season?",
                 new String[]{".310", ".320", ".330", ".345"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many home runs did Miguel Cabrera hit in his 2012 Triple Crown season (44)?",
+                "How many home runs did Miguel Cabrera hit in his 2012 Triple Crown season?",
                 new String[]{"38", "41", "44", "48"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many RBIs did Miguel Cabrera drive in during his 2012 Triple Crown season (139)?",
+                "How many RBIs did Miguel Cabrera drive in during his 2012 Triple Crown season?",
                 new String[]{"125", "132", "139", "148"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Mike Piazza hit — the most by a catcher (427)?",
+                "How many career home runs did Mike Piazza hit — the most by a catcher?",
                 new String[]{"380", "400", "427", "450"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did John Smoltz accumulate (213)?",
+                "How many career wins did John Smoltz accumulate?",
                 new String[]{"190", "200", "213", "230"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did John Smoltz accumulate (154)?",
+                "How many career saves did John Smoltz accumulate?",
                 new String[]{"100", "125", "154", "175"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Tom Glavine accumulate (305)?",
+                "How many career wins did Tom Glavine accumulate?",
                 new String[]{"270", "290", "305", "320"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Pedro Martinez accumulate (219)?",
+                "How many career wins did Pedro Martinez accumulate?",
                 new String[]{"190", "205", "219", "240"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Pedro Martinez's career strikeout-to-walk ratio (4.15)?",
+                "What was Pedro Martinez's career strikeout-to-walk ratio?",
                 new String[]{"3.20", "3.65", "4.15", "4.50"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Justin Verlander accumulate (through 2024, 262)?",
+                "How many career wins did Justin Verlander accumulate through 2024?",
                 new String[]{"230", "245", "262", "280"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did Justin Verlander accumulate (3,416)?",
+                "How many career strikeouts did Justin Verlander accumulate?",
                 new String[]{"3,000", "3,200", "3,416", "3,600"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Carlos Beltran hit (435)?",
+                "How many career home runs did Carlos Beltran hit?",
                 new String[]{"390", "415", "435", "460"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career stolen bases did Carlos Beltran accumulate (312)?",
+                "How many career stolen bases did Carlos Beltran accumulate?",
                 new String[]{"250", "280", "312", "340"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Adrián Beltré hit (477)?",
+                "How many career home runs did Adrián Beltré hit?",
                 new String[]{"430", "455", "477", "500"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career hits did Adrián Beltré accumulate (3,166)?",
+                "How many career hits did Adrián Beltré accumulate?",
                 new String[]{"2,900", "3,050", "3,166", "3,300"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many Gold Glove Awards did Adrián Beltré win at third base (5)?",
+                "How many Gold Glove Awards did Adrián Beltré win at third base?",
                 new String[]{"3", "4", "5", "6"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Jeff Bagwell hit (449)?",
+                "How many career home runs did Jeff Bagwell hit?",
                 new String[]{"410", "430", "449", "470"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Fred McGriff hit (493)?",
+                "How many career home runs did Fred McGriff hit?",
                 new String[]{"450", "475", "493", "510"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Mark McGwire hit (583)?",
+                "How many career home runs did Mark McGwire hit?",
                 new String[]{"540", "560", "583", "600"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many home runs did Jose Bautista hit in his breakout 2010 season (54)?",
+                "How many home runs did Jose Bautista hit in his breakout 2010 season?",
                 new String[]{"45", "48", "54", "58"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did Craig Kimbrel accumulate (through 2024, 417)?",
+                "How many career saves did Craig Kimbrel accumulate through 2024?",
                 new String[]{"370", "395", "417", "440"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did Jonathan Papelbon accumulate (368)?",
+                "How many career saves did Jonathan Papelbon accumulate?",
                 new String[]{"310", "340", "368", "390"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career saves did Joe Nathan accumulate (377)?",
+                "How many career saves did Joe Nathan accumulate?",
                 new String[]{"330", "355", "377", "400"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was the longest hitting streak in the National League (44 games by Pete Rose)?",
+                "What was the longest hitting streak in the National League?",
                 new String[]{"37", "40", "44", "48"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many consecutive games did Prince Fielder's father Cecil play (1,096)?",
+                "How many consecutive games did Prince Fielder's father Cecil play?",
                 new String[]{"800", "950", "1,096", "1,200"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career doubles did Albert Pujols accumulate (686)?",
+                "How many career doubles did Albert Pujols accumulate?",
                 new String[]{"580", "630", "686", "720"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Nelson Cruz hit (464)?",
+                "How many career home runs did Nelson Cruz hit?",
                 new String[]{"410", "440", "464", "490"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many home runs did Shohei Ohtani hit in his 2023 season (44)?",
+                "How many home runs did Shohei Ohtani hit in his 2023 season?",
                 new String[]{"38", "41", "44", "48"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Shohei Ohtani's ERA as a pitcher in 2022 (2.33)?",
+                "What was Shohei Ohtani's ERA as a pitcher in 2022?",
                 new String[]{"1.95", "2.15", "2.33", "2.55"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Whitey Ford accumulate (236)?",
+                "How many career wins did Whitey Ford accumulate?",
                 new String[]{"210", "220", "236", "250"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Whitey Ford's career winning percentage (.690)?",
+                "What was Whitey Ford's career winning percentage?",
                 new String[]{".640", ".660", ".690", ".710"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Robinson Canó hit (335)?",
+                "How many career home runs did Robinson Canó hit?",
                 new String[]{"290", "310", "335", "360"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many Silver Slugger Awards did Mike Trout win through 2024 (9)?",
+                "How many Silver Slugger Awards did Mike Trout win through 2024?",
                 new String[]{"6", "7", "9", "11"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Max Scherzer's career strikeouts total through 2024 (3,409)?",
+                "What was Max Scherzer's career strikeouts total through 2024?",
                 new String[]{"3,000", "3,200", "3,409", "3,600"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career no-hitters did Sandy Koufax throw (4)?",
+                "How many career no-hitters did Sandy Koufax throw?",
                 new String[]{"2", "3", "4", "5"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career strikeouts did Sandy Koufax accumulate in only 12 seasons (2,396)?",
+                "How many career strikeouts did Sandy Koufax accumulate in only 12 seasons?",
                 new String[]{"2,100", "2,250", "2,396", "2,550"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career wins did Sandy Koufax accumulate (165)?",
+                "How many career wins did Sandy Koufax accumulate?",
                 new String[]{"140", "155", "165", "185"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Johnny Bench hit (389)?",
+                "How many career home runs did Johnny Bench hit?",
                 new String[]{"340", "365", "389", "410"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career RBIs did Johnny Bench accumulate (1,376)?",
+                "How many career RBIs did Johnny Bench accumulate?",
                 new String[]{"1,150", "1,250", "1,376", "1,500"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Carlton Fisk hit (376)?",
+                "How many career home runs did Carlton Fisk hit?",
                 new String[]{"330", "355", "376", "400"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career home runs did Yogi Berra hit (358)?",
+                "How many career home runs did Yogi Berra hit?",
                 new String[]{"310", "335", "358", "380"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career RBIs did Yogi Berra accumulate (1,430)?",
+                "How many career RBIs did Yogi Berra accumulate?",
                 new String[]{"1,200", "1,320", "1,430", "1,550"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many World Series rings did Yogi Berra win (10)?",
+                "How many World Series rings did Yogi Berra win?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many career triples did Roberto Clemente hit (166)?",
+                "How many career triples did Roberto Clemente hit?",
                 new String[]{"130", "150", "166", "185"}, 2));
 
         questions.add(new Question("Baseball",
-                "What was Roberto Clemente's career batting average (.317)?",
+                "What was Roberto Clemente's career batting average?",
                 new String[]{".299", ".308", ".317", ".328"}, 2));
 
         questions.add(new Question("Baseball",
-                "How many batting titles did Tony Gwynn win (8)?",
+                "How many batting titles did Tony Gwynn win?",
                 new String[]{"5", "6", "8", "10"}, 2));
     }
 
@@ -1894,7 +1894,7 @@ public class QuestionBank {
                 new String[]{"Dallas Cowboys", "Green Bay Packers", "Pittsburgh Steelers", "Kansas City Chiefs"}, 1));
 
         questions.add(new Question("Football",
-                "What was the largest margin of victory in Super Bowl history (Super Bowl XXIV)?",
+                "What was the largest margin of victory in Super Bowl history?",
                 new String[]{"35 points", "39 points", "45 points", "42 points"}, 2));
 
         questions.add(new Question("Football",
@@ -2174,7 +2174,7 @@ public class QuestionBank {
                 new String[]{"Walter Payton", "Jim McMahon", "Richard Dent", "Mike Singletary"}, 2));
 
         questions.add(new Question("Football",
-                "Which team won the first Super Bowl after the AFL-NFL merger in 1970 (Super Bowl V)?",
+                "Which team won the first Super Bowl after the AFL-NFL merger in 1970?",
                 new String[]{"Dallas Cowboys", "Baltimore Colts", "Miami Dolphins", "Kansas City Chiefs"}, 1));
 
         questions.add(new Question("Football",
@@ -2462,7 +2462,7 @@ public class QuestionBank {
                 new String[]{"471", "508", "539", "571"}, 2));
 
         questions.add(new Question("Football",
-                "What was Aaron Rodgers' career passer rating (regular season)?",
+                "What was Aaron Rodgers' career regular-season passer rating?",
                 new String[]{"96.4", "100.5", "103.1", "104.5"}, 2));
 
         questions.add(new Question("Football",
@@ -2478,7 +2478,7 @@ public class QuestionBank {
                 new String[]{"61,655", "66,000", "71,838", "75,000"}, 2));
 
         questions.add(new Question("Football",
-                "What is the highest single-game passer rating in NFL history (158.3)?",
+                "What is the highest single-game passer rating in NFL history?",
                 new String[]{"It's the maximum possible passer rating", "It was set by Peyton Manning", "It was set by Tom Brady", "No one has achieved it"}, 0));
 
         questions.add(new Question("Football",
@@ -2494,7 +2494,7 @@ public class QuestionBank {
                 new String[]{"8", "10", "12", "14"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive games did Tom Brady throw at least one touchdown pass (52)?",
+                "How many consecutive games did Tom Brady throw at least one touchdown pass?",
                 new String[]{"36", "44", "52", "60"}, 2));
 
         questions.add(new Question("Football",
@@ -2510,7 +2510,7 @@ public class QuestionBank {
                 new String[]{"40", "45", "50", "55"}, 2));
 
         questions.add(new Question("Football",
-                "What is the NFL record for most passing yards in a single game (554)?",
+                "What is the NFL record for most passing yards in a single game?",
                 new String[]{"Norm Van Brocklin", "Drew Brees", "Matt Ryan", "Tom Brady"}, 0));
 
         questions.add(new Question("Football",
@@ -2522,7 +2522,7 @@ public class QuestionBank {
                 new String[]{"5", "7", "9", "11"}, 1));
 
         questions.add(new Question("Football",
-                "What is the highest single-season completion percentage in NFL history (74.4% in 2022)?",
+                "What is the highest single-season completion percentage in NFL history?",
                 new String[]{"Tom Brady", "Tua Tagovailoa", "Drew Brees", "Aaron Rodgers"}, 1));
 
         questions.add(new Question("Football",
@@ -2560,7 +2560,7 @@ public class QuestionBank {
                 new String[]{"10,009", "11,500", "12,312", "13,000"}, 2));
 
         questions.add(new Question("Football",
-                "What was Jim Brown's career rushing average (yards per carry)?",
+                "What was Jim Brown's career rushing average per carry?",
                 new String[]{"4.5", "4.8", "5.2", "5.6"}, 2));
 
         questions.add(new Question("Football",
@@ -2572,7 +2572,7 @@ public class QuestionBank {
                 new String[]{"9", "11", "13", "15"}, 1));
 
         questions.add(new Question("Football",
-                "What is the NFL record for most rushing yards in a single game (296)?",
+                "What is the NFL record for most rushing yards in a single game?",
                 new String[]{"Adrian Peterson", "Jamal Lewis", "Barry Sanders", "Corey Dillon"}, 0));
 
         questions.add(new Question("Football",
@@ -2626,7 +2626,7 @@ public class QuestionBank {
                 new String[]{"1,100", "1,200", "1,325", "1,400"}, 2));
 
         questions.add(new Question("Football",
-                "What is the NFL record for most receiving yards in a single game (329)?",
+                "What is the NFL record for most receiving yards in a single game?",
                 new String[]{"Calvin Johnson", "Julio Jones", "Flipper Anderson", "Jerry Rice"}, 2));
 
         questions.add(new Question("Football",
@@ -2652,7 +2652,7 @@ public class QuestionBank {
                 new String[]{"61", "67", "71", "81"}, 2));
 
         questions.add(new Question("Football",
-                "How many career interception return touchdowns did Rod Woodson score (12)?",
+                "How many career interception return touchdowns did Rod Woodson score?",
                 new String[]{"8", "10", "12", "14"}, 2));
 
         questions.add(new Question("Football",
@@ -2672,11 +2672,11 @@ public class QuestionBank {
                 new String[]{"131.5", "141.5", "151.5", "161.5"}, 1));
 
         questions.add(new Question("Football",
-                "How many career interceptions did Ed Reed return for touchdowns (7)?",
+                "How many career interceptions did Ed Reed return for touchdowns?",
                 new String[]{"5", "6", "7", "8"}, 2));
 
         questions.add(new Question("Football",
-                "What is the longest interception return in NFL history (108 yards)?",
+                "What is the longest interception return in NFL history?",
                 new String[]{"Deion Sanders", "Ed Reed", "Rod Woodson", "Charles Woodson"}, 1));
 
         // --- Special Teams Stats ---
@@ -2690,7 +2690,7 @@ public class QuestionBank {
                 new String[]{"499", "529", "582", "620"}, 2));
 
         questions.add(new Question("Football",
-                "What is the NFL record for longest punt (98 yards)?",
+                "What is the NFL record for longest punt?",
                 new String[]{"Shane Lechler", "Steve O'Neal", "Ray Guy", "Thomas Morstead"}, 1));
 
         questions.add(new Question("Football",
@@ -2698,7 +2698,7 @@ public class QuestionBank {
                 new String[]{"10", "12", "14", "16"}, 2));
 
         questions.add(new Question("Football",
-                "What is the highest single-season field goal percentage in NFL history (96.7%)?",
+                "What is the highest single-season field goal percentage in NFL history?",
                 new String[]{"Adam Vinatieri", "Justin Tucker", "Harrison Butker", "Stephen Gostkowski"}, 1));
 
         // --- Postseason and Super Bowl Stats ---
@@ -2712,15 +2712,15 @@ public class QuestionBank {
                 new String[]{"25", "30", "35", "40"}, 2));
 
         questions.add(new Question("Football",
-                "What is the most passing yards in a single Super Bowl (505 by Tom Brady)?",
+                "What is the most passing yards in a single Super Bowl?",
                 new String[]{"467", "480", "505", "520"}, 2));
 
         questions.add(new Question("Football",
-                "How many total points were scored in the highest-scoring Super Bowl (XXIX — 75 points)?",
+                "How many total points were scored in the highest-scoring Super Bowl?",
                 new String[]{"65", "69", "75", "80"}, 2));
 
         questions.add(new Question("Football",
-                "How many career postseason rushing yards did Emmitt Smith accumulate (1,586)?",
+                "How many career postseason rushing yards did Emmitt Smith accumulate?",
                 new String[]{"1,200", "1,400", "1,586", "1,800"}, 2));
 
         questions.add(new Question("Football",
@@ -2728,7 +2728,7 @@ public class QuestionBank {
                 new String[]{"18", "22", "26", "30"}, 1));
 
         questions.add(new Question("Football",
-                "What is the most rushing yards in a single Super Bowl game (204 by Timmy Smith)?",
+                "What is the most rushing yards in a single Super Bowl game?",
                 new String[]{"175", "191", "204", "215"}, 2));
 
         questions.add(new Question("Football",
@@ -2736,17 +2736,17 @@ public class QuestionBank {
                 new String[]{"6", "8", "9", "11"}, 2));
 
         questions.add(new Question("Football",
-                "How many touchdowns did the 2007 Patriots score in the regular season (a record 589 points)?",
+                "How many touchdowns did the 2007 Patriots score in the regular season?",
                 new String[]{"62", "68", "75", "80"}, 2));
 
         questions.add(new Question("Football",
-                "What is the fewest points allowed by a defense in a 16-game season (165 by the 2000 Ravens)?",
+                "What is the fewest points allowed by a defense in a 16-game season?",
                 new String[]{"145", "155", "165", "175"}, 2));
 
         // --- Team and Season Stats ---
 
         questions.add(new Question("Football",
-                "What is the most total yards gained by a team in a single NFL season (7,474 by the 2013 Broncos)?",
+                "What is the most total yards gained by a team in a single NFL season?",
                 new String[]{"6,800", "7,100", "7,474", "7,800"}, 2));
 
         questions.add(new Question("Football",
@@ -2754,15 +2754,15 @@ public class QuestionBank {
                 new String[]{"540", "560", "589", "606"}, 3));
 
         questions.add(new Question("Football",
-                "What is the most sacks recorded by a team in a single season (72 by the 1984 Bears)?",
+                "What is the most sacks recorded by a team in a single season?",
                 new String[]{"60", "66", "72", "78"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive wins did the 2003-2004 Patriots achieve (21)?",
+                "How many consecutive wins did the 2003-2004 Patriots achieve?",
                 new String[]{"17", "19", "21", "23"}, 2));
 
         questions.add(new Question("Football",
-                "What is the longest winning streak in NFL history (regular season, 23 by the 2003-04 Patriots)?",
+                "What is the longest regular-season winning streak in NFL history?",
                 new String[]{"19", "21", "23", "25"}, 2));
 
         questions.add(new Question("Football",
@@ -2770,7 +2770,7 @@ public class QuestionBank {
                 new String[]{"8.4", "10.3", "12.6", "14.1"}, 1));
 
         questions.add(new Question("Football",
-                "How many rushing yards did the 1978 Patriots gain as a team — an NFL single-game record (3,165 season)?",
+                "How many rushing yards did the 1978 Patriots gain as a team — an NFL single-game record?",
                 new String[]{"2,800", "2,950", "3,165", "3,300"}, 2));
 
         questions.add(new Question("Football",
@@ -2778,11 +2778,11 @@ public class QuestionBank {
                 new String[]{"+126", "+152", "+171", "+189"}, 2));
 
         questions.add(new Question("Football",
-                "How many career wins does Tom Brady hold the record for among QBs (251)?",
+                "How many career wins does Tom Brady hold the record for among QBs?",
                 new String[]{"220", "235", "251", "265"}, 2));
 
         questions.add(new Question("Football",
-                "How many career Pro Bowl selections did Merlin Olsen and Bruce Matthews each earn (14)?",
+                "How many career Pro Bowl selections did Merlin Olsen and Bruce Matthews each earn?",
                 new String[]{"11", "12", "13", "14"}, 3));
 
         // === 300 MORE FOOTBALL QUESTIONS ===
@@ -2790,539 +2790,539 @@ public class QuestionBank {
         // --- Passing Stats Deep Dive ---
 
         questions.add(new Question("Football",
-                "How many career passing yards did John Elway accumulate (51,475)?",
+                "How many career passing yards did John Elway accumulate?",
                 new String[]{"45,000", "48,000", "51,475", "55,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did John Elway throw (300)?",
+                "How many career passing touchdowns did John Elway throw?",
                 new String[]{"260", "280", "300", "320"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Philip Rivers accumulate (63,440)?",
+                "How many career passing yards did Philip Rivers accumulate?",
                 new String[]{"55,000", "59,000", "63,440", "67,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Philip Rivers throw (421)?",
+                "How many career passing touchdowns did Philip Rivers throw?",
                 new String[]{"370", "395", "421", "445"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Ben Roethlisberger accumulate (64,088)?",
+                "How many career passing yards did Ben Roethlisberger accumulate?",
                 new String[]{"56,000", "60,000", "64,088", "68,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Ben Roethlisberger throw (418)?",
+                "How many career passing touchdowns did Ben Roethlisberger throw?",
                 new String[]{"370", "395", "418", "445"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Eli Manning accumulate (57,023)?",
+                "How many career passing yards did Eli Manning accumulate?",
                 new String[]{"50,000", "53,000", "57,023", "60,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Eli Manning throw (366)?",
+                "How many career passing touchdowns did Eli Manning throw?",
                 new String[]{"320", "345", "366", "390"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Matt Ryan accumulate (62,792)?",
+                "How many career passing yards did Matt Ryan accumulate?",
                 new String[]{"55,000", "59,000", "62,792", "66,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Matt Ryan throw (381)?",
+                "How many career passing touchdowns did Matt Ryan throw?",
                 new String[]{"340", "360", "381", "400"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Russell Wilson accumulate through 2024 (43,653)?",
+                "How many career passing yards did Russell Wilson accumulate through 2024?",
                 new String[]{"38,000", "41,000", "43,653", "47,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Aaron Rodgers throw (through 2024, 475)?",
+                "How many career passing touchdowns did Aaron Rodgers throw through 2024?",
                 new String[]{"430", "455", "475", "500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Aaron Rodgers accumulate (through 2024, 59,055)?",
+                "How many career passing yards did Aaron Rodgers accumulate through 2024?",
                 new String[]{"52,000", "56,000", "59,055", "63,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career 4th-quarter comebacks did John Elway lead (40)?",
+                "How many career 4th-quarter comebacks did John Elway lead?",
                 new String[]{"28", "34", "40", "46"}, 2));
 
         questions.add(new Question("Football",
-                "How many career game-winning drives did Dan Marino lead (36)?",
+                "How many career game-winning drives did Dan Marino lead?",
                 new String[]{"26", "31", "36", "41"}, 2));
 
         questions.add(new Question("Football",
-                "What was Kurt Warner's career passer rating (93.7)?",
+                "What was Kurt Warner's career passer rating?",
                 new String[]{"88.2", "91.0", "93.7", "96.5"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Fran Tarkenton accumulate (47,003)?",
+                "How many career passing yards did Fran Tarkenton accumulate?",
                 new String[]{"40,000", "43,500", "47,003", "50,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Fran Tarkenton throw (342)?",
+                "How many career passing touchdowns did Fran Tarkenton throw?",
                 new String[]{"290", "315", "342", "370"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Warren Moon accumulate in the NFL (49,325)?",
+                "How many career passing yards did Warren Moon accumulate in the NFL?",
                 new String[]{"42,000", "45,500", "49,325", "52,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive starts did Brett Favre make — the NFL record (297)?",
+                "How many consecutive starts did Brett Favre make — the NFL record?",
                 new String[]{"250", "275", "297", "320"}, 2));
 
         // --- Rushing Stats Deep Dive ---
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Curtis Martin accumulate (14,101)?",
+                "How many career rushing yards did Curtis Martin accumulate?",
                 new String[]{"12,000", "13,000", "14,101", "15,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Marcus Allen accumulate (12,243)?",
+                "How many career rushing yards did Marcus Allen accumulate?",
                 new String[]{"10,500", "11,300", "12,243", "13,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Jerome Bettis accumulate (13,662)?",
+                "How many career rushing yards did Jerome Bettis accumulate?",
                 new String[]{"11,500", "12,500", "13,662", "14,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing touchdowns did Marcus Allen score (123)?",
+                "How many career rushing touchdowns did Marcus Allen score?",
                 new String[]{"100", "110", "123", "135"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Tony Dorsett accumulate (12,739)?",
+                "How many career rushing yards did Tony Dorsett accumulate?",
                 new String[]{"10,800", "11,700", "12,739", "13,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Eric Dickerson accumulate (13,259)?",
+                "How many career rushing yards did Eric Dickerson accumulate?",
                 new String[]{"11,500", "12,400", "13,259", "14,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Thurman Thomas accumulate (12,074)?",
+                "How many career rushing yards did Thurman Thomas accumulate?",
                 new String[]{"10,500", "11,200", "12,074", "13,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing touchdowns did Jim Brown score (106)?",
+                "How many career rushing touchdowns did Jim Brown score?",
                 new String[]{"86", "96", "106", "116"}, 2));
 
         questions.add(new Question("Football",
-                "What was Jim Brown's career total rushing yards per season average (1,368)?",
+                "What was Jim Brown's career total rushing yards per season average?",
                 new String[]{"1,100", "1,250", "1,368", "1,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Edgerrin James accumulate (12,246)?",
+                "How many career rushing yards did Edgerrin James accumulate?",
                 new String[]{"10,500", "11,400", "12,246", "13,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing touchdowns did Adrian Peterson score (120)?",
+                "How many career rushing touchdowns did Adrian Peterson score?",
                 new String[]{"100", "110", "120", "130"}, 2));
 
         questions.add(new Question("Football",
-                "How many career 1,000-yard rushing seasons did Barry Sanders have (10)?",
+                "How many career 1,000-yard rushing seasons did Barry Sanders have?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing touchdowns did Terrell Davis score (60)?",
+                "How many career rushing touchdowns did Terrell Davis score?",
                 new String[]{"45", "53", "60", "70"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing yards did Terrell Davis gain in the 1998 season (2,008)?",
+                "How many rushing yards did Terrell Davis gain in the 1998 season?",
                 new String[]{"1,850", "1,950", "2,008", "2,100"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Derrick Henry accumulate through 2024 (10,413)?",
+                "How many career rushing yards did Derrick Henry accumulate through 2024?",
                 new String[]{"8,500", "9,500", "10,413", "11,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Fred Taylor accumulate (11,695)?",
+                "How many career rushing yards did Fred Taylor accumulate?",
                 new String[]{"9,800", "10,700", "11,695", "12,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Corey Dillon accumulate (11,241)?",
+                "How many career rushing yards did Corey Dillon accumulate?",
                 new String[]{"9,500", "10,400", "11,241", "12,000"}, 2));
 
         questions.add(new Question("Football",
-                "What is the record for most rushing yards by a quarterback in a season (1,206 by Lamar Jackson)?",
+                "What is the record for most rushing yards by a quarterback in a season?",
                 new String[]{"1,000", "1,100", "1,206", "1,300"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Michael Vick accumulate (6,109)?",
+                "How many career rushing yards did Michael Vick accumulate?",
                 new String[]{"4,800", "5,500", "6,109", "7,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing touchdowns did Priest Holmes score in 2003 (27)?",
+                "How many rushing touchdowns did Priest Holmes score in 2003?",
                 new String[]{"22", "25", "27", "30"}, 2));
 
         // --- Receiving Stats Deep Dive ---
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Tim Brown accumulate (14,934)?",
+                "How many career receiving yards did Tim Brown accumulate?",
                 new String[]{"12,500", "13,700", "14,934", "16,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Terrell Owens score (153)?",
+                "How many career receiving touchdowns did Terrell Owens score?",
                 new String[]{"130", "140", "153", "165"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receptions did Marvin Harrison accumulate (1,102)?",
+                "How many career receptions did Marvin Harrison accumulate?",
                 new String[]{"950", "1,025", "1,102", "1,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Marvin Harrison score (128)?",
+                "How many career receiving touchdowns did Marvin Harrison score?",
                 new String[]{"105", "115", "128", "140"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Steve Largent accumulate (13,089)?",
+                "How many career receiving yards did Steve Largent accumulate?",
                 new String[]{"11,000", "12,000", "13,089", "14,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Andre Johnson accumulate (14,185)?",
+                "How many career receiving yards did Andre Johnson accumulate?",
                 new String[]{"12,000", "13,000", "14,185", "15,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Don Hutson score (99)?",
+                "How many career receiving touchdowns did Don Hutson score?",
                 new String[]{"75", "85", "99", "110"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receptions did Shannon Sharpe accumulate (815)?",
+                "How many career receptions did Shannon Sharpe accumulate?",
                 new String[]{"700", "760", "815", "870"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Isaac Bruce accumulate (15,208)?",
+                "How many career receiving yards did Isaac Bruce accumulate?",
                 new String[]{"13,000", "14,000", "15,208", "16,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Cris Carter score (130)?",
+                "How many career receiving touchdowns did Cris Carter score?",
                 new String[]{"110", "120", "130", "140"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receptions did Cris Carter accumulate (1,101)?",
+                "How many career receptions did Cris Carter accumulate?",
                 new String[]{"950", "1,025", "1,101", "1,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Henry Ellard accumulate (13,777)?",
+                "How many career receiving yards did Henry Ellard accumulate?",
                 new String[]{"11,500", "12,500", "13,777", "15,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Reggie Wayne accumulate (14,345)?",
+                "How many career receiving yards did Reggie Wayne accumulate?",
                 new String[]{"12,000", "13,200", "14,345", "15,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receptions did Jason Witten accumulate (1,228)?",
+                "How many career receptions did Jason Witten accumulate?",
                 new String[]{"1,050", "1,140", "1,228", "1,320"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Rob Gronkowski score (92)?",
+                "How many career receiving touchdowns did Rob Gronkowski score?",
                 new String[]{"72", "82", "92", "102"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Julio Jones accumulate (13,330)?",
+                "How many career receiving yards did Julio Jones accumulate?",
                 new String[]{"11,500", "12,400", "13,330", "14,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did DeAndre Hopkins accumulate through 2024 (12,509)?",
+                "How many career receiving yards did DeAndre Hopkins accumulate through 2024?",
                 new String[]{"10,500", "11,500", "12,509", "13,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many receiving yards did Calvin Johnson gain in his record 2012 season (1,964)?",
+                "How many receiving yards did Calvin Johnson gain in his record 2012 season?",
                 new String[]{"1,750", "1,850", "1,964", "2,050"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Travis Kelce score through 2024 (76)?",
+                "How many career receiving touchdowns did Travis Kelce score through 2024?",
                 new String[]{"60", "68", "76", "85"}, 2));
 
         questions.add(new Question("Football",
-                "How many receptions did Michael Thomas make in his record 2019 season (149)?",
+                "How many receptions did Michael Thomas make in his record 2019 season?",
                 new String[]{"130", "140", "149", "155"}, 2));
 
         // --- Defensive Stats Deep Dive ---
 
         questions.add(new Question("Football",
-                "How many career sacks did Derrick Thomas accumulate (126.5)?",
+                "How many career sacks did Derrick Thomas accumulate?",
                 new String[]{"105", "115", "126.5", "140"}, 2));
 
         questions.add(new Question("Football",
-                "How many sacks did Derrick Thomas record in a single game — the NFL record (7)?",
+                "How many sacks did Derrick Thomas record in a single game — the NFL record?",
                 new String[]{"5", "6", "7", "8"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Chris Doleman accumulate (150.5)?",
+                "How many career sacks did Chris Doleman accumulate?",
                 new String[]{"130", "140", "150.5", "160"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did John Randle accumulate (137.5)?",
+                "How many career sacks did John Randle accumulate?",
                 new String[]{"115", "125", "137.5", "150"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Richard Dent accumulate (137.5)?",
+                "How many career sacks did Richard Dent accumulate?",
                 new String[]{"115", "125", "137.5", "150"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Jason Taylor accumulate (139.5)?",
+                "How many career sacks did Jason Taylor accumulate?",
                 new String[]{"120", "130", "139.5", "150"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Jared Allen accumulate (136)?",
+                "How many career sacks did Jared Allen accumulate?",
                 new String[]{"115", "125", "136", "145"}, 2));
 
         questions.add(new Question("Football",
-                "How many sacks did Jared Allen record in 2011 (22)?",
+                "How many sacks did Jared Allen record in 2011?",
                 new String[]{"18", "20", "22", "24"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did DeMarcus Ware accumulate (138.5)?",
+                "How many career sacks did DeMarcus Ware accumulate?",
                 new String[]{"118", "128", "138.5", "148"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Dwight Freeney accumulate (125.5)?",
+                "How many career sacks did Dwight Freeney accumulate?",
                 new String[]{"105", "115", "125.5", "135"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Terrell Suggs accumulate (139)?",
+                "How many career sacks did Terrell Suggs accumulate?",
                 new String[]{"119", "129", "139", "149"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Von Miller accumulate through 2024 (123.5)?",
+                "How many career sacks did Von Miller accumulate through 2024?",
                 new String[]{"105", "115", "123.5", "135"}, 2));
 
         questions.add(new Question("Football",
-                "How many career interceptions did Darren Sharper record (63)?",
+                "How many career interceptions did Darren Sharper record?",
                 new String[]{"48", "55", "63", "71"}, 2));
 
         questions.add(new Question("Football",
-                "How many career interceptions did Ty Law record (53)?",
+                "How many career interceptions did Ty Law record?",
                 new String[]{"40", "47", "53", "60"}, 2));
 
         questions.add(new Question("Football",
-                "How many career interceptions did Champ Bailey record (52)?",
+                "How many career interceptions did Champ Bailey record?",
                 new String[]{"39", "46", "52", "58"}, 2));
 
         questions.add(new Question("Football",
-                "How many career tackles did London Fletcher accumulate (2,039)?",
+                "How many career tackles did London Fletcher accumulate?",
                 new String[]{"1,750", "1,900", "2,039", "2,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive games did London Fletcher play (256)?",
+                "How many consecutive games did London Fletcher play?",
                 new String[]{"210", "230", "256", "280"}, 2));
 
         questions.add(new Question("Football",
-                "How many career tackles did Junior Seau accumulate (1,849)?",
+                "How many career tackles did Junior Seau accumulate?",
                 new String[]{"1,550", "1,700", "1,849", "2,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Lawrence Taylor accumulate (142)?",
+                "How many career sacks did Lawrence Taylor accumulate?",
                 new String[]{"120", "130", "142", "155"}, 2));
 
         questions.add(new Question("Football",
-                "How many sacks did Lawrence Taylor record in his 1986 MVP season (20.5)?",
+                "How many sacks did Lawrence Taylor record in his 1986 MVP season?",
                 new String[]{"16.5", "18.5", "20.5", "22.5"}, 2));
 
         // --- Kicking and Special Teams Deep Dive ---
 
         questions.add(new Question("Football",
-                "How many career field goals did Morten Andersen make (565)?",
+                "How many career field goals did Morten Andersen make?",
                 new String[]{"500", "530", "565", "600"}, 2));
 
         questions.add(new Question("Football",
-                "How many career points did Morten Andersen score (2,544)?",
+                "How many career points did Morten Andersen score?",
                 new String[]{"2,200", "2,400", "2,544", "2,700"}, 2));
 
         questions.add(new Question("Football",
-                "What is Justin Tucker's career field goal percentage (through 2024, 89.9%)?",
+                "What is Justin Tucker's career field goal percentage through 2024?",
                 new String[]{"86.5%", "88.2%", "89.9%", "91.5%"}, 2));
 
         questions.add(new Question("Football",
-                "How many career points did Jason Elam score (1,983)?",
+                "How many career points did Jason Elam score?",
                 new String[]{"1,700", "1,850", "1,983", "2,100"}, 2));
 
         questions.add(new Question("Football",
-                "How many career kickoff return touchdowns did Josh Cribbs score (8)?",
+                "How many career kickoff return touchdowns did Josh Cribbs score?",
                 new String[]{"5", "6", "8", "10"}, 2));
 
         questions.add(new Question("Football",
-                "How many career punt return touchdowns did Deion Sanders score (6)?",
+                "How many career punt return touchdowns did Deion Sanders score?",
                 new String[]{"4", "5", "6", "7"}, 2));
 
         questions.add(new Question("Football",
-                "What is the longest kickoff return in NFL history (109 yards)?",
+                "What is the longest kickoff return in NFL history?",
                 new String[]{"105", "107", "109", "111"}, 2));
 
         questions.add(new Question("Football",
-                "How many career field goals did Gary Anderson make (538)?",
+                "How many career field goals did Gary Anderson make?",
                 new String[]{"480", "510", "538", "560"}, 2));
 
         questions.add(new Question("Football",
-                "In 1998 Gary Anderson went a perfect season without missing a FG. How many did he make (35)?",
+                "In 1998 Gary Anderson went a perfect season without missing a FG. How many did he make?",
                 new String[]{"28", "32", "35", "38"}, 2));
 
         questions.add(new Question("Football",
-                "How many career points did Stephen Gostkowski score (1,775)?",
+                "How many career points did Stephen Gostkowski score?",
                 new String[]{"1,500", "1,650", "1,775", "1,900"}, 2));
 
         // --- Quarterback Season Stats ---
 
         questions.add(new Question("Football",
-                "How many passing touchdowns did Tom Brady throw in his 2007 season (50)?",
+                "How many passing touchdowns did Tom Brady throw in his 2007 season?",
                 new String[]{"45", "48", "50", "52"}, 2));
 
         questions.add(new Question("Football",
-                "How many passing yards did Drew Brees throw for in 2011 (5,476)?",
+                "How many passing yards did Drew Brees throw for in 2011?",
                 new String[]{"5,100", "5,250", "5,476", "5,600"}, 2));
 
         questions.add(new Question("Football",
-                "What was Aaron Rodgers' passer rating in his 2011 MVP season (122.5)?",
+                "What was Aaron Rodgers' passer rating in his 2011 MVP season?",
                 new String[]{"112.5", "117.5", "122.5", "127.5"}, 2));
 
         questions.add(new Question("Football",
-                "How many interceptions did Aaron Rodgers throw in his 2018 season (only 2)?",
+                "How many interceptions did Aaron Rodgers throw in his 2018 season?",
                 new String[]{"1", "2", "3", "4"}, 1));
 
         questions.add(new Question("Football",
-                "How many passing yards did Matthew Stafford throw for in 2011 (5,038)?",
+                "How many passing yards did Matthew Stafford throw for in 2011?",
                 new String[]{"4,700", "4,850", "5,038", "5,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many passing touchdowns did Kurt Warner throw in the 1999 season (41)?",
+                "How many passing touchdowns did Kurt Warner throw in the 1999 season?",
                 new String[]{"35", "38", "41", "44"}, 2));
 
         questions.add(new Question("Football",
-                "What was Joe Montana's career passer rating (92.3)?",
+                "What was Joe Montana's career passer rating?",
                 new String[]{"86.5", "89.4", "92.3", "95.0"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Troy Aikman accumulate (32,942)?",
+                "How many career passing yards did Troy Aikman accumulate?",
                 new String[]{"28,000", "30,500", "32,942", "35,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Joe Montana throw (273)?",
+                "How many career passing touchdowns did Joe Montana throw?",
                 new String[]{"240", "255", "273", "290"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Joe Montana accumulate (40,551)?",
+                "How many career passing yards did Joe Montana accumulate?",
                 new String[]{"35,000", "38,000", "40,551", "43,000"}, 2));
 
         // --- Rushing Season Stats ---
 
         questions.add(new Question("Football",
-                "How many rushing yards did Jamal Lewis gain in 2003 (2,066)?",
+                "How many rushing yards did Jamal Lewis gain in 2003?",
                 new String[]{"1,900", "2,000", "2,066", "2,105"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing yards did Chris Johnson gain in 2009 (2,006)?",
+                "How many rushing yards did Chris Johnson gain in 2009?",
                 new String[]{"1,850", "1,950", "2,006", "2,100"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing touchdowns did Earl Campbell score in 1979 (19)?",
+                "How many rushing touchdowns did Earl Campbell score in 1979?",
                 new String[]{"15", "17", "19", "21"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive 100-yard rushing games did Barry Sanders have in 1997 (14)?",
+                "How many consecutive 100-yard rushing games did Barry Sanders have in 1997?",
                 new String[]{"10", "12", "14", "16"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing yards did O.J. Simpson gain in a single game in 1976 (273)?",
+                "How many rushing yards did O.J. Simpson gain in a single game in 1976?",
                 new String[]{"250", "260", "273", "285"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing touchdowns did Clinton Portis score in 2003 (14)?",
+                "How many rushing touchdowns did Clinton Portis score in 2003?",
                 new String[]{"10", "12", "14", "16"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing touchdowns did Jerome Bettis score (91)?",
+                "How many career rushing touchdowns did Jerome Bettis score?",
                 new String[]{"75", "83", "91", "100"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing yards did Earl Campbell gain in 1980 (1,934)?",
+                "How many rushing yards did Earl Campbell gain in 1980?",
                 new String[]{"1,700", "1,800", "1,934", "2,050"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing yards did Emmitt Smith gain in 1995 (1,773)?",
+                "How many rushing yards did Emmitt Smith gain in 1995?",
                 new String[]{"1,600", "1,700", "1,773", "1,900"}, 2));
 
         questions.add(new Question("Football",
-                "How many career fumbles did Warren Moon commit — the all-time record (161)?",
+                "How many career fumbles did Warren Moon commit — the all-time record?",
                 new String[]{"120", "140", "161", "180"}, 2));
 
         // --- Touchdown and Scoring Stats ---
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Marcus Allen score (145)?",
+                "How many career touchdowns did Marcus Allen score?",
                 new String[]{"120", "130", "145", "160"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Marshall Faulk score (136)?",
+                "How many career touchdowns did Marshall Faulk score?",
                 new String[]{"115", "125", "136", "150"}, 2));
 
         questions.add(new Question("Football",
-                "How many total touchdowns did Marshall Faulk score in 2000 (26)?",
+                "How many total touchdowns did Marshall Faulk score in 2000?",
                 new String[]{"20", "23", "26", "29"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Terrell Davis score (65)?",
+                "How many career touchdowns did Terrell Davis score?",
                 new String[]{"50", "58", "65", "75"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Adrian Peterson score (120)?",
+                "How many career touchdowns did Adrian Peterson score?",
                 new String[]{"100", "110", "120", "130"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Shaun Alexander score (112)?",
+                "How many career touchdowns did Shaun Alexander score?",
                 new String[]{"90", "100", "112", "125"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Curtis Martin score (100)?",
+                "How many career touchdowns did Curtis Martin score?",
                 new String[]{"80", "90", "100", "110"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Barry Sanders score (109)?",
+                "How many career touchdowns did Barry Sanders score?",
                 new String[]{"90", "100", "109", "120"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Walter Payton score (125)?",
+                "How many career touchdowns did Walter Payton score?",
                 new String[]{"105", "115", "125", "135"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Frank Gore score (81)?",
+                "How many career touchdowns did Frank Gore score?",
                 new String[]{"65", "73", "81", "90"}, 2));
 
         // --- Postseason and Super Bowl Deep Stats ---
 
         questions.add(new Question("Football",
-                "How many career postseason passing yards did Tom Brady accumulate (13,400)?",
+                "How many career postseason passing yards did Tom Brady accumulate?",
                 new String[]{"10,500", "12,000", "13,400", "15,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career postseason rushing yards did Franco Harris accumulate (1,556)?",
+                "How many career postseason rushing yards did Franco Harris accumulate?",
                 new String[]{"1,200", "1,400", "1,556", "1,700"}, 2));
 
         questions.add(new Question("Football",
-                "How many career postseason receiving yards did Jerry Rice accumulate (2,245)?",
+                "How many career postseason receiving yards did Jerry Rice accumulate?",
                 new String[]{"1,800", "2,050", "2,245", "2,500"}, 2));
 
         questions.add(new Question("Football",
-                "What was Joe Montana's career postseason passer rating (95.6)?",
+                "What was Joe Montana's career postseason passer rating?",
                 new String[]{"89.0", "92.5", "95.6", "98.0"}, 2));
 
         questions.add(new Question("Football",
-                "How many career postseason touchdown passes did Joe Montana throw (45)?",
+                "How many career postseason touchdown passes did Joe Montana throw?",
                 new String[]{"35", "40", "45", "50"}, 2));
 
         questions.add(new Question("Football",
-                "How many career postseason games did Tom Brady start (48)?",
+                "How many career postseason games did Tom Brady start?",
                 new String[]{"35", "42", "48", "55"}, 2));
 
         questions.add(new Question("Football",
-                "How many points did the Patriots score in Super Bowl LI after trailing 28-3 to win (34)?",
+                "How many points did the Patriots score in Super Bowl LI after trailing 28-3 to win?",
                 new String[]{"31", "34", "37", "40"}, 1));
 
         questions.add(new Question("Football",
-                "How many career postseason interceptions did Bill Belichick's defenses force (approximately 67)?",
+                "How many career postseason interceptions did Bill Belichick's defenses force?",
                 new String[]{"45", "55", "67", "80"}, 2));
 
         questions.add(new Question("Football",
-                "How many Super Bowl touchdown passes did Joe Montana throw (11)?",
+                "How many Super Bowl touchdown passes did Joe Montana throw?",
                 new String[]{"8", "10", "11", "13"}, 2));
 
         questions.add(new Question("Football",
-                "How many career postseason rushing touchdowns did Emmitt Smith score (19)?",
+                "How many career postseason rushing touchdowns did Emmitt Smith score?",
                 new String[]{"14", "17", "19", "22"}, 2));
 
         // --- Team Records and Streaks ---
@@ -3332,247 +3332,247 @@ public class QuestionBank {
                 new String[]{"14", "15", "16", "17"}, 2));
 
         questions.add(new Question("Football",
-                "How many total points did the 1998 Vikings score — then an NFL record (556)?",
+                "How many total points did the 1998 Vikings score — then an NFL record?",
                 new String[]{"500", "530", "556", "580"}, 2));
 
         questions.add(new Question("Football",
-                "How many regular-season wins did the 1985 Bears have (15)?",
+                "How many regular-season wins did the 1985 Bears have?",
                 new String[]{"13", "14", "15", "16"}, 2));
 
         questions.add(new Question("Football",
-                "How many shutouts did the 2000 Ravens defense record (4)?",
+                "How many shutouts did the 2000 Ravens defense record?",
                 new String[]{"2", "3", "4", "5"}, 2));
 
         questions.add(new Question("Football",
-                "How many rushing yards did the 1978 Patriots' single-game record reach against the Jets (3,165 season, 350 in one game)?",
+                "How many rushing yards did the 1978 Patriots' single-game record reach against the Jets?",
                 new String[]{"300", "325", "350", "375"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive home wins did the 2005-2008 Patriots achieve (21)?",
+                "How many consecutive home wins did the 2005-2008 Patriots achieve?",
                 new String[]{"15", "18", "21", "24"}, 2));
 
         questions.add(new Question("Football",
-                "How many takeaways did the 1985 Bears defense force (54)?",
+                "How many takeaways did the 1985 Bears defense force?",
                 new String[]{"40", "47", "54", "60"}, 2));
 
         questions.add(new Question("Football",
-                "What was the most points scored by a team in a single NFL game (73 by the Bears in 1940)?",
+                "What was the most points scored by a team in a single NFL game?",
                 new String[]{"62", "66", "73", "80"}, 2));
 
         questions.add(new Question("Football",
-                "How many total yards did the 2011 Saints offense gain — an NFL record (7,474)?",
+                "How many total yards did the 2011 Saints offense gain — an NFL record?",
                 new String[]{"6,800", "7,100", "7,474", "7,800"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive road wins did the 2003-2004 Patriots achieve (10)?",
+                "How many consecutive road wins did the 2003-2004 Patriots achieve?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         // --- Draft Pick Career Stats ---
 
         questions.add(new Question("Football",
-                "How many career passing yards did Ryan Leaf — one of the biggest draft busts — throw for (3,666)?",
+                "How many career passing yards did Ryan Leaf — one of the biggest draft busts — throw for?",
                 new String[]{"2,500", "3,100", "3,666", "5,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did JaMarcus Russell throw in 3 NFL seasons (18)?",
+                "How many career passing touchdowns did JaMarcus Russell throw in 3 NFL seasons?",
                 new String[]{"12", "15", "18", "25"}, 2));
 
         questions.add(new Question("Football",
-                "How many career games did Bo Jackson play in the NFL (38)?",
+                "How many career games did Bo Jackson play in the NFL?",
                 new String[]{"25", "32", "38", "50"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Bo Jackson accumulate in just 38 games (2,782)?",
+                "How many career rushing yards did Bo Jackson accumulate in just 38 games?",
                 new String[]{"2,000", "2,400", "2,782", "3,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Dan Fouts accumulate (43,040)?",
+                "How many career passing yards did Dan Fouts accumulate?",
                 new String[]{"36,000", "39,500", "43,040", "47,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Dan Fouts throw (254)?",
+                "How many career passing touchdowns did Dan Fouts throw?",
                 new String[]{"210", "235", "254", "280"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Terry Bradshaw accumulate (27,989)?",
+                "How many career passing yards did Terry Bradshaw accumulate?",
                 new String[]{"22,000", "25,000", "27,989", "31,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Terry Bradshaw throw (212)?",
+                "How many career passing touchdowns did Terry Bradshaw throw?",
                 new String[]{"175", "195", "212", "230"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Johnny Unitas accumulate (40,239)?",
+                "How many career passing yards did Johnny Unitas accumulate?",
                 new String[]{"34,000", "37,000", "40,239", "43,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Johnny Unitas throw (290)?",
+                "How many career passing touchdowns did Johnny Unitas throw?",
                 new String[]{"250", "270", "290", "310"}, 2));
 
         // --- Miscellaneous Stat Records ---
 
         questions.add(new Question("Football",
-                "How many career fumble return touchdowns did Jason Taylor score (6)?",
+                "How many career fumble return touchdowns did Jason Taylor score?",
                 new String[]{"3", "4", "6", "8"}, 2));
 
         questions.add(new Question("Football",
-                "How many career safeties did Ted Hendricks record — the most in NFL history (4)?",
+                "How many career safeties did Ted Hendricks record — the most in NFL history?",
                 new String[]{"2", "3", "4", "5"}, 2));
 
         questions.add(new Question("Football",
-                "How many career defensive touchdowns did Charles Woodson score (13)?",
+                "How many career defensive touchdowns did Charles Woodson score?",
                 new String[]{"8", "10", "13", "16"}, 2));
 
         questions.add(new Question("Football",
-                "What is the NFL record for most tackles in a single season (approximately 180)?",
+                "What is the NFL record for most tackles in a single NFL season?",
                 new String[]{"155", "168", "180", "195"}, 2));
 
         questions.add(new Question("Football",
-                "How many career blocked kicks did Ted Hendricks record (25)?",
+                "How many career blocked kicks did Ted Hendricks record?",
                 new String[]{"15", "20", "25", "30"}, 2));
 
         questions.add(new Question("Football",
-                "How many career games did Jerry Rice play (303)?",
+                "How many career games did Jerry Rice play?",
                 new String[]{"270", "285", "303", "320"}, 2));
 
         questions.add(new Question("Football",
-                "How many career Pro Bowl selections did Tony Gonzalez earn (14)?",
+                "How many career Pro Bowl selections did Tony Gonzalez earn?",
                 new String[]{"10", "12", "14", "16"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Tony Gonzalez accumulate (15,127)?",
+                "How many career receiving yards did Tony Gonzalez accumulate?",
                 new String[]{"13,000", "14,000", "15,127", "16,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many seasons did Peyton Manning throw 4,000+ passing yards (14)?",
+                "How many seasons did Peyton Manning throw 4,000+ passing yards?",
                 new String[]{"10", "12", "14", "16"}, 2));
 
         questions.add(new Question("Football",
-                "How many career seasons did Tom Brady play in the NFL (23)?",
+                "How many career seasons did Tom Brady play in the NFL?",
                 new String[]{"20", "21", "23", "25"}, 2));
 
         questions.add(new Question("Football",
-                "How many career regular-season wins did Tom Brady accumulate as a starter (251)?",
+                "How many career regular-season wins did Tom Brady accumulate as a starter?",
                 new String[]{"220", "235", "251", "270"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing attempts did Brett Favre make — the all-time record (10,169)?",
+                "How many career passing attempts did Brett Favre make — the all-time record?",
                 new String[]{"8,800", "9,500", "10,169", "11,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Herschel Walker accumulate (8,225)?",
+                "How many career rushing yards did Herschel Walker accumulate?",
                 new String[]{"6,500", "7,400", "8,225", "9,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career All-Pro first-team selections did Jim Brown earn (8)?",
+                "How many career All-Pro first-team selections did Jim Brown earn?",
                 new String[]{"5", "6", "8", "10"}, 2));
 
         questions.add(new Question("Football",
-                "How many career touchdowns did Jim Brown score (126)?",
+                "How many career touchdowns did Jim Brown score?",
                 new String[]{"100", "115", "126", "140"}, 2));
 
         questions.add(new Question("Football",
-                "What was the most interceptions by a team in a single season (49 by the 1961 Chargers)?",
+                "What was the most interceptions by a team in a single season?",
                 new String[]{"40", "45", "49", "55"}, 2));
 
         questions.add(new Question("Football",
-                "How many career punt return yards did Brian Mitchell accumulate — the all-time record (4,999)?",
+                "How many career punt return yards did Brian Mitchell accumulate — the all-time record?",
                 new String[]{"4,000", "4,500", "4,999", "5,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many career all-purpose yards did Brian Mitchell accumulate (23,330)?",
+                "How many career all-purpose yards did Brian Mitchell accumulate?",
                 new String[]{"20,000", "21,500", "23,330", "25,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career all-purpose yards did Jerry Rice accumulate (23,546)?",
+                "How many career all-purpose yards did Jerry Rice accumulate?",
                 new String[]{"20,000", "22,000", "23,546", "25,000"}, 2));
 
         questions.add(new Question("Football",
-                "What was Don Shula's career coaching win total (347)?",
+                "What was Don Shula's career coaching win total?",
                 new String[]{"310", "330", "347", "365"}, 2));
 
         questions.add(new Question("Football",
-                "How many career coaching wins did George Halas accumulate (324)?",
+                "How many career coaching wins did George Halas accumulate?",
                 new String[]{"280", "300", "324", "345"}, 2));
 
         questions.add(new Question("Football",
-                "How many career regular-season coaching wins did Bill Belichick accumulate (302)?",
+                "How many career regular-season coaching wins did Bill Belichick accumulate?",
                 new String[]{"270", "285", "302", "320"}, 2));
 
         questions.add(new Question("Football",
-                "How many career coaching wins did Tom Landry accumulate (270)?",
+                "How many career coaching wins did Tom Landry accumulate?",
                 new String[]{"240", "255", "270", "285"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive winning seasons did Tom Landry have with the Cowboys (20)?",
+                "How many consecutive winning seasons did Tom Landry have with the Cowboys?",
                 new String[]{"14", "17", "20", "23"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did T.J. Watt accumulate through 2024 (96.5)?",
+                "How many career sacks did T.J. Watt accumulate through 2024?",
                 new String[]{"78", "88", "96.5", "105"}, 2));
 
         questions.add(new Question("Football",
-                "How many sacks did T.J. Watt record in 2021 to tie the single-season record (22.5)?",
+                "How many sacks did T.J. Watt record in 2021 to tie the single-season record?",
                 new String[]{"18.5", "20.5", "22.5", "24.5"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Davante Adams accumulate through 2024 (10,990)?",
+                "How many career receiving yards did Davante Adams accumulate through 2024?",
                 new String[]{"9,000", "10,000", "10,990", "12,000"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing yards did Nick Chubb accumulate through 2024 (6,511)?",
+                "How many career rushing yards did Nick Chubb accumulate through 2024?",
                 new String[]{"5,000", "5,800", "6,511", "7,200"}, 2));
 
         questions.add(new Question("Football",
-                "How many career rushing touchdowns did Derrick Henry score through 2024 (99)?",
+                "How many career rushing touchdowns did Derrick Henry score through 2024?",
                 new String[]{"78", "88", "99", "110"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Matthew Stafford throw through 2024 (335)?",
+                "How many career passing touchdowns did Matthew Stafford throw through 2024?",
                 new String[]{"290", "315", "335", "360"}, 2));
 
         questions.add(new Question("Football",
-                "How many career Pro Bowl selections did Larry Fitzgerald earn (11)?",
+                "How many career Pro Bowl selections did Larry Fitzgerald earn?",
                 new String[]{"8", "9", "11", "13"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving touchdowns did Larry Fitzgerald score (121)?",
+                "How many career receiving touchdowns did Larry Fitzgerald score?",
                 new String[]{"100", "110", "121", "135"}, 2));
 
         questions.add(new Question("Football",
-                "How many career receiving yards did Mike Evans accumulate through 2024 (12,594)?",
+                "How many career receiving yards did Mike Evans accumulate through 2024?",
                 new String[]{"10,500", "11,500", "12,594", "13,500"}, 2));
 
         questions.add(new Question("Football",
-                "How many consecutive 1,000-yard receiving seasons did Mike Evans have through 2024 (10)?",
+                "How many consecutive 1,000-yard receiving seasons did Mike Evans have through 2024?",
                 new String[]{"7", "8", "10", "12"}, 2));
 
         questions.add(new Question("Football",
-                "How many career interceptions did Darrelle Revis accumulate (29)?",
+                "How many career interceptions did Darrelle Revis accumulate?",
                 new String[]{"22", "25", "29", "35"}, 2));
 
         questions.add(new Question("Football",
-                "How many career pass deflections did Richard Sherman accumulate (116)?",
+                "How many career pass deflections did Richard Sherman accumulate?",
                 new String[]{"90", "100", "116", "130"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Aaron Donald accumulate through 2024 (111)?",
+                "How many career sacks did Aaron Donald accumulate through 2024?",
                 new String[]{"95", "103", "111", "120"}, 2));
 
         questions.add(new Question("Football",
-                "How many times was Aaron Donald named First-Team All-Pro (8)?",
+                "How many times was Aaron Donald named First-Team All-Pro?",
                 new String[]{"5", "6", "8", "10"}, 2));
 
         questions.add(new Question("Football",
-                "How many career sacks did Khalil Mack accumulate through 2024 (102)?",
+                "How many career sacks did Khalil Mack accumulate through 2024?",
                 new String[]{"82", "92", "102", "112"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing touchdowns did Patrick Mahomes throw through 2024 (227)?",
+                "How many career passing touchdowns did Patrick Mahomes throw through 2024?",
                 new String[]{"190", "210", "227", "250"}, 2));
 
         questions.add(new Question("Football",
-                "How many career passing yards did Patrick Mahomes accumulate through 2024 (32,780)?",
+                "How many career passing yards did Patrick Mahomes accumulate through 2024?",
                 new String[]{"27,000", "30,000", "32,780", "36,000"}, 2));
     }
 }
